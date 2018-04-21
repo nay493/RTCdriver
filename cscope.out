@@ -1,0 +1,12732 @@
+cscope 15 $HOME/Desktop/RTC               0000077099
+	@mc146818rtc.h
+
+11 #i‚de‡
+_MC146818RTC_H
+
+
+12 
+	#_MC146818RTC_H
+
+
+	)
+
+14 
+	~<asm/io.h
+>
+
+15 
+	~<löux/πc.h
+>
+
+16 
+	~<asm/mc146818πc.h
+>
+
+18 #ifde‡
+__KERNEL__
+
+
+19 
+	~<löux/•ölock.h
+>
+
+20 
+•ölock_t
+ 
+πc_lock
+;
+
+30 
+	scmos_πc_bﬂrd_öfo
+ {
+
+31 (*
+	mwake_⁄
+)(
+devi˚
+ *
+	mdev
+);
+
+32 (*
+	mwake_off
+)(
+devi˚
+ *
+	mdev
+);
+
+34 
+u8
+ 
+	mπc_day_Æ¨m
+;
+
+35 
+u8
+ 
+	mπc_m⁄_Æ¨m
+;
+
+36 
+u8
+ 
+	mπc_˚¡ury
+;
+
+43 
+	#RTC_SECONDS
+ 0
+
+	)
+
+44 
+	#RTC_SECONDS_ALARM
+ 1
+
+	)
+
+45 
+	#RTC_MINUTES
+ 2
+
+	)
+
+46 
+	#RTC_MINUTES_ALARM
+ 3
+
+	)
+
+47 
+	#RTC_HOURS
+ 4
+
+	)
+
+48 
+	#RTC_HOURS_ALARM
+ 5
+
+	)
+
+50 
+	#RTC_ALARM_DONT_CARE
+ 0xC0
+
+	)
+
+52 
+	#RTC_DAY_OF_WEEK
+ 6
+
+	)
+
+53 
+	#RTC_DAY_OF_MONTH
+ 7
+
+	)
+
+54 
+	#RTC_MONTH
+ 8
+
+	)
+
+55 
+	#RTC_YEAR
+ 9
+
+	)
+
+59 
+	#RTC_REG_A
+ 10
+
+	)
+
+60 
+	#RTC_REG_B
+ 11
+
+	)
+
+61 
+	#RTC_REG_C
+ 12
+
+	)
+
+62 
+	#RTC_REG_D
+ 13
+
+	)
+
+67 
+	#RTC_FREQ_SELECT
+ 
+RTC_REG_A
+
+
+	)
+
+73 
+	#RTC_UIP
+ 0x80
+
+	)
+
+74 
+	#RTC_DIV_CTL
+ 0x70
+
+	)
+
+76 
+	#RTC_REF_CLCK_4MHZ
+ 0x00
+
+	)
+
+77 
+	#RTC_REF_CLCK_1MHZ
+ 0x10
+
+	)
+
+78 
+	#RTC_REF_CLCK_32KHZ
+ 0x20
+
+	)
+
+80 
+	#RTC_DIV_RESET1
+ 0x60
+
+	)
+
+81 
+	#RTC_DIV_RESET2
+ 0x70
+
+	)
+
+83 
+	#RTC_RATE_SELECT
+ 0x0F
+
+	)
+
+86 
+	#RTC_CONTROL
+ 
+RTC_REG_B
+
+
+	)
+
+87 
+	#RTC_SET
+ 0x80
+
+	)
+
+88 
+	#RTC_PIE
+ 0x40
+
+	)
+
+89 
+	#RTC_AIE
+ 0x20
+
+	)
+
+90 
+	#RTC_UIE
+ 0x10
+
+	)
+
+91 
+	#RTC_SQWE
+ 0x08
+
+	)
+
+92 
+	#RTC_DM_BINARY
+ 0x04
+
+	)
+
+93 
+	#RTC_24H
+ 0x02
+
+	)
+
+94 
+	#RTC_DST_EN
+ 0x01
+
+	)
+
+97 
+	#RTC_INTR_FLAGS
+ 
+RTC_REG_C
+
+
+	)
+
+99 
+	#RTC_IRQF
+ 0x80
+
+	)
+
+100 
+	#RTC_PF
+ 0x40
+
+	)
+
+101 
+	#RTC_AF
+ 0x20
+
+	)
+
+102 
+	#RTC_UF
+ 0x10
+
+	)
+
+105 
+	#RTC_VALID
+ 
+RTC_REG_D
+
+
+	)
+
+106 
+	#RTC_VRT
+ 0x80
+
+	)
+
+109 #i‚de‡
+ARCH_RTC_LOCATION
+
+
+111 
+	#RTC_IO_EXTENT
+ 0x8
+
+	)
+
+112 
+	#RTC_IO_EXTENT_USED
+ 0x2
+
+	)
+
+113 
+	#RTC_IOMAPPED
+ 1
+
+	)
+
+116 
+	#RTC_IO_EXTENT_USED
+ 
+RTC_IO_EXTENT
+
+
+	)
+
+	@rtc-classDriver-nay.c
+
+54 
+	#RTC_VERSION
+ "1.12b"
+
+	)
+
+64 
+	~<löux/öãºu±.h
+>
+
+65 
+	~<löux/moduÀ.h
+>
+
+66 
+	~<löux/kî√l.h
+>
+
+67 
+	~<löux/ty≥s.h
+>
+
+68 
+	~<löux/miscdevi˚.h
+>
+
+69 
+	~<löux/i›‹t.h
+>
+
+70 
+	~<löux/f˙é.h
+>
+
+71 
+	~<löux/mc146818πc.h
+>
+
+72 
+	~<löux/öô.h
+>
+
+73 
+	~<löux/pﬁl.h
+>
+
+74 
+	~<löux/¥oc_fs.h
+>
+
+75 
+	~<löux/£q_fûe.h
+>
+
+76 
+	~<löux/•ölock.h
+>
+
+77 
+	~<löux/sched.h
+>
+
+78 
+	~<löux/sys˘l.h
+>
+
+79 
+	~<löux/waô.h
+>
+
+80 
+	~<löux/bcd.h
+>
+
+81 
+	~<löux/dñay.h
+>
+
+82 
+	~<löux/uac˚ss.h
+>
+
+83 
+	~<löux/øãlimô.h
+>
+
+85 
+	~<asm/cuºít.h
+>
+
+87 #ifde‡
+CONFIG_X86
+
+
+88 
+	~<asm/h≥t.h
+>
+
+91 #ifde‡
+CONFIG_SPARC32
+
+
+92 
+	~<löux/of.h
+>
+
+93 
+	~<löux/of_devi˚.h
+>
+
+94 
+	~<asm/io.h
+>
+
+98 
+	gπc_p‹t
+;
+
+99 
+	gπc_úq
+;
+
+102 #ifdef 
+CONFIG_HPET_EMULATE_RTC
+
+
+103 #unde‡
+RTC_IRQ
+
+
+106 #ifde‡
+RTC_IRQ
+
+
+107 
+	gπc_has_úq
+ = 1;
+
+110 #i‚de‡
+CONFIG_HPET_EMULATE_RTC
+
+
+111 
+	#is_h≥t_íabÀd
+(Ë0
+
+	)
+
+112 
+	#h≥t_£t_Æ¨m_time
+(
+hrs
+, 
+mö
+, 
+£c
+Ë0
+
+	)
+
+113 
+	#h≥t_£t_≥riodic_‰eq
+(
+¨g
+Ë0
+
+	)
+
+114 
+	#h≥t_mask_πc_úq_bô
+(
+¨g
+Ë0
+
+	)
+
+115 
+	#h≥t_£t_πc_úq_bô
+(
+¨g
+Ë0
+
+	)
+
+116 
+	#h≥t_πc_timî_öô
+(Ëdÿ{ } 0)
+
+	)
+
+117 
+	#h≥t_πc_dr›≥d_úq
+(Ë0
+
+	)
+
+118 
+	#h≥t_ªgi°î_úq_h™dÀr
+(
+h
+Ë({ 0; })
+
+	)
+
+119 
+	#h≥t_uƒegi°î_úq_h™dÀr
+(
+h
+Ë({ 0; })
+
+	)
+
+120 #ifde‡
+RTC_IRQ
+
+
+121 
+úqªtu∫_t
+ 
+	$h≥t_πc_öãºu±
+(
+úq
+, *
+dev_id
+)
+
+124 
+	}
+}
+
+135 
+Ásync_°ru˘
+ *
+	gπc_async_queue
+;
+
+137 
+DECLARE_WAIT_QUEUE_HEAD
+(
+πc_waô
+);
+
+139 #ifde‡
+RTC_IRQ
+
+
+140 
+πc_dr›≥d_úq
+(
+d©a
+);
+
+142 
+DEFINE_TIMER
+(
+πc_úq_timî
+, 
+πc_dr›≥d_úq
+, 0, 0);
+
+145 
+ssize_t
+ 
+πc_ªad
+(
+fûe
+ *fûe, 
+__u£r
+ *
+buf
+,
+
+146 
+size_t
+ 
+cou¡
+, 
+loff_t
+ *
+µos
+);
+
+147 
+__exô_p
+
+
+148 
+πc_io˘l
+(
+fûe
+ *fûe, 
+cmd
+, 
+¨g
+);
+
+149 
+πc_gë_πc_time
+(
+πc_time
+ *
+πc_tm
+);
+
+151 #ifde‡
+RTC_IRQ
+
+
+152 
+πc_pﬁl
+(
+fûe
+ *fûe, 
+pﬁl_èbÀ
+ *
+waô
+);
+
+155 
+gë_πc_Æm_time
+(
+πc_time
+ *
+Æm_tm
+);
+
+156 #ifde‡
+RTC_IRQ
+
+
+157 
+£t_πc_úq_bô_locked
+(
+bô
+);
+
+158 
+mask_πc_úq_bô_locked
+(
+bô
+);
+
+160 
+ölöe
+ 
+	$£t_πc_úq_bô
+(
+bô
+)
+
+162 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+163 
+	`£t_πc_úq_bô_locked
+(
+bô
+);
+
+164 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+165 
+	}
+}
+
+167 
+	$mask_πc_úq_bô
+(
+bô
+)
+
+169 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+170 
+	`mask_πc_úq_bô_locked
+(
+bô
+);
+
+171 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+172 
+	}
+}
+
+175 #ifde‡
+CONFIG_PROC_FS
+
+
+176 
+πc_¥oc_›í
+(
+öode
+ *öode, 
+fûe
+ *file);
+
+183 
+	#RTC_IS_OPEN
+ 0x01
+
+	)
+
+184 
+	#RTC_TIMER_ON
+ 0x02
+
+	)
+
+193 
+	gπc_°©us
+;
+
+194 
+	gπc_‰eq
+;
+
+195 
+	gπc_úq_d©a
+;
+
+196 
+	gπc_max_u£r_‰eq
+ = 64;
+
+198 #ifde‡
+RTC_IRQ
+
+
+202 
+DEFINE_SPINLOCK
+(
+πc_èsk_lock
+);
+
+203 
+πc_èsk_t
+ *
+	gπc_ˇŒback
+;
+
+211 
+	gïoch
+ = 1900;
+
+213 c⁄° 
+	gdays_ö_mo
+[] =
+
+219 
+ölöe
+ 
+	$πc_is_upd©ög
+()
+
+221 
+Êags
+;
+
+222 
+uù
+;
+
+224 
+	`•ö_lock_úqßve
+(&
+πc_lock
+, 
+Êags
+);
+
+225 
+uù
+ = (
+	`CMOS_READ
+(
+RTC_FREQ_SELECT
+Ë& 
+RTC_UIP
+);
+
+226 
+	`•ö_u∆ock_úqª°‹e
+(&
+πc_lock
+, 
+Êags
+);
+
+227  
+uù
+;
+
+228 
+	}
+}
+
+230 #ifde‡
+RTC_IRQ
+
+
+241 
+úqªtu∫_t
+ 
+	$πc_öãºu±
+(
+úq
+, *
+dev_id
+)
+
+250 
+	`•ö_lock
+(&
+πc_lock
+);
+
+251 
+πc_úq_d©a
+ += 0x100;
+
+252 
+πc_úq_d©a
+ &= ~0xff;
+
+253 i‡(
+	`is_h≥t_íabÀd
+()) {
+
+259 
+πc_úq_d©a
+ |()
+úq
+ & 0xF0;
+
+261 
+πc_úq_d©a
+ |(
+	`CMOS_READ
+(
+RTC_INTR_FLAGS
+) & 0xF0);
+
+264 i‡(
+πc_°©us
+ & 
+RTC_TIMER_ON
+)
+
+265 
+	`mod_timî
+(&
+πc_úq_timî
+, 
+jiffõs
+ + 
+HZ
+/
+πc_‰eq
+ + 2*HZ/100);
+
+267 
+	`•ö_u∆ock
+(&
+πc_lock
+);
+
+270 
+	`•ö_lock
+(&
+πc_èsk_lock
+);
+
+271 i‡(
+πc_ˇŒback
+)
+
+272 
+πc_ˇŒback
+->
+	`func
+‘tc_ˇŒback->
+¥iv©e_d©a
+);
+
+273 
+	`•ö_u∆ock
+(&
+πc_èsk_lock
+);
+
+274 
+	`wake_up_öãºu±ibÀ
+(&
+πc_waô
+);
+
+276 
+	`kûl_Ásync
+(&
+πc_async_queue
+, 
+SIGIO
+, 
+POLL_IN
+);
+
+278  
+IRQ_HANDLED
+;
+
+279 
+	}
+}
+
+285 
+˘l_èbÀ
+ 
+	gπc_èbÀ
+[] = {
+
+287 .
+¥o˙ame
+ = "max-user-freq",
+
+288 .
+	gd©a
+ = &
+πc_max_u£r_‰eq
+,
+
+289 .
+	gmaxÀn
+ = (),
+
+290 .
+	gmode
+ = 0644,
+
+291 .
+	g¥oc_h™dÀr
+ = 
+¥oc_doötvec
+,
+
+296 
+˘l_èbÀ
+ 
+	gπc_roŸ
+[] = {
+
+298 .
+¥o˙ame
+ = "rtc",
+
+299 .
+	gmode
+ = 0555,
+
+300 .
+	gchûd
+ = 
+πc_èbÀ
+,
+
+305 
+˘l_èbÀ
+ 
+	gdev_roŸ
+[] = {
+
+307 .
+¥o˙ame
+ = "dev",
+
+308 .
+	gmode
+ = 0555,
+
+309 .
+	gchûd
+ = 
+πc_roŸ
+,
+
+314 
+˘l_èbÀ_hódî
+ *
+	gsys˘l_hódî
+;
+
+316 
+__öô
+ 
+	$öô_sys˘l
+()
+
+318 
+sys˘l_hódî
+ = 
+	`ªgi°î_sys˘l_èbÀ
+(
+dev_roŸ
+);
+
+320 
+	}
+}
+
+322 
+__exô
+ 
+	$˛ónup_sys˘l
+()
+
+324 
+	`uƒegi°î_sys˘l_èbÀ
+(
+sys˘l_hódî
+);
+
+325 
+	}
+}
+
+331 
+ssize_t
+ 
+	$πc_ªad
+(
+fûe
+ *fûe, 
+__u£r
+ *
+buf
+,
+
+332 
+size_t
+ 
+cou¡
+, 
+loff_t
+ *
+µos
+)
+
+334 #i‚de‡
+RTC_IRQ
+
+
+335  -
+EIO
+;
+
+337 
+	`DECLARE_WAITQUEUE
+(
+waô
+, 
+cuºít
+);
+
+338 
+d©a
+;
+
+339 
+ssize_t
+ 
+ªtvÆ
+;
+
+341 i‡(
+πc_has_úq
+ == 0)
+
+342  -
+EIO
+;
+
+352 i‡(
+cou¡
+ != () && count != ())
+
+353  -
+EINVAL
+;
+
+355 
+	`add_waô_queue
+(&
+πc_waô
+, &
+waô
+);
+
+362 
+	`__£t_cuºít_°©e
+(
+TASK_INTERRUPTIBLE
+);
+
+364 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+365 
+d©a
+ = 
+πc_úq_d©a
+;
+
+366 
+πc_úq_d©a
+ = 0;
+
+367 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+369 i‡(
+d©a
+ != 0)
+
+372 i‡(
+fûe
+->
+f_Êags
+ & 
+O_NONBLOCK
+) {
+
+373 
+ªtvÆ
+ = -
+EAGAIN
+;
+
+374 
+out
+;
+
+376 i‡(
+	`sig«l_≥ndög
+(
+cuºít
+)) {
+
+377 
+ªtvÆ
+ = -
+ERESTARTSYS
+;
+
+378 
+out
+;
+
+380 
+	`scheduÀ
+();
+
+383 i‡(
+cou¡
+ == ()) {
+
+384 
+ªtvÆ
+ = 
+	`put_u£r
+(
+d©a
+,
+
+385 (
+__u£r
+ *)
+buf
+) ?: ();
+
+387 
+ªtvÆ
+ = 
+	`put_u£r
+(
+d©a
+,
+
+388 (
+__u£r
+ *)
+buf
+) ?: ();
+
+390 i‡(!
+ªtvÆ
+)
+
+391 
+ªtvÆ
+ = 
+cou¡
+;
+
+392 
+out
+:
+
+393 
+	`__£t_cuºít_°©e
+(
+TASK_RUNNING
+);
+
+394 
+	`ªmove_waô_queue
+(&
+πc_waô
+, &
+waô
+);
+
+396  
+ªtvÆ
+;
+
+398 
+	}
+}
+
+400 
+	$πc_do_io˘l
+(
+cmd
+, 
+¨g
+, 
+kî√l
+)
+
+402 
+πc_time
+ 
+wtime
+;
+
+404 #ifde‡
+RTC_IRQ
+
+
+405 i‡(
+πc_has_úq
+ == 0) {
+
+406 
+cmd
+) {
+
+407 
+RTC_AIE_OFF
+:
+
+408 
+RTC_AIE_ON
+:
+
+409 
+RTC_PIE_OFF
+:
+
+410 
+RTC_PIE_ON
+:
+
+411 
+RTC_UIE_OFF
+:
+
+412 
+RTC_UIE_ON
+:
+
+413 
+RTC_IRQP_READ
+:
+
+414 
+RTC_IRQP_SET
+:
+
+415  -
+EINVAL
+;
+
+420 
+cmd
+) {
+
+421 #ifde‡
+RTC_IRQ
+
+
+422 
+RTC_AIE_OFF
+:
+
+424 
+	`mask_πc_úq_bô
+(
+RTC_AIE
+);
+
+427 
+RTC_AIE_ON
+:
+
+429 
+	`£t_πc_úq_bô
+(
+RTC_AIE
+);
+
+432 
+RTC_PIE_OFF
+:
+
+435 
+Êags
+;
+
+437 
+	`•ö_lock_úqßve
+(&
+πc_lock
+, 
+Êags
+);
+
+438 
+	`mask_πc_úq_bô_locked
+(
+RTC_PIE
+);
+
+439 i‡(
+πc_°©us
+ & 
+RTC_TIMER_ON
+) {
+
+440 
+πc_°©us
+ &~
+RTC_TIMER_ON
+;
+
+441 
+	`dñ_timî
+(&
+πc_úq_timî
+);
+
+443 
+	`•ö_u∆ock_úqª°‹e
+(&
+πc_lock
+, 
+Êags
+);
+
+447 
+RTC_PIE_ON
+:
+
+450 
+Êags
+;
+
+456 i‡(!
+kî√l
+ && (
+πc_‰eq
+ > 
+πc_max_u£r_‰eq
+) &&
+
+457 (!
+	`ˇ∑bÀ
+(
+CAP_SYS_RESOURCE
+)))
+
+458  -
+EACCES
+;
+
+460 
+	`•ö_lock_úqßve
+(&
+πc_lock
+, 
+Êags
+);
+
+461 i‡(!(
+πc_°©us
+ & 
+RTC_TIMER_ON
+)) {
+
+462 
+	`mod_timî
+(&
+πc_úq_timî
+, 
+jiffõs
+ + 
+HZ
+/
+πc_‰eq
+ +
+
+463 2*
+HZ
+/100);
+
+464 
+πc_°©us
+ |
+RTC_TIMER_ON
+;
+
+466 
+	`£t_πc_úq_bô_locked
+(
+RTC_PIE
+);
+
+467 
+	`•ö_u∆ock_úqª°‹e
+(&
+πc_lock
+, 
+Êags
+);
+
+471 
+RTC_UIE_OFF
+:
+
+473 
+	`mask_πc_úq_bô
+(
+RTC_UIE
+);
+
+476 
+RTC_UIE_ON
+:
+
+478 
+	`£t_πc_úq_bô
+(
+RTC_UIE
+);
+
+482 
+RTC_ALM_READ
+:
+
+489 
+	`mem£t
+(&
+wtime
+, 0, (
+πc_time
+));
+
+490 
+	`gë_πc_Æm_time
+(&
+wtime
+);
+
+493 
+RTC_ALM_SET
+:
+
+500 
+hrs
+, 
+mö
+, 
+£c
+;
+
+501 
+πc_time
+ 
+Æm_tm
+;
+
+503 i‡(
+	`c›y_‰om_u£r
+(&
+Æm_tm
+, (
+πc_time
+ 
+__u£r
+ *)
+¨g
+,
+
+504 (
+πc_time
+)))
+
+505  -
+EFAULT
+;
+
+507 
+hrs
+ = 
+Æm_tm
+.
+tm_hour
+;
+
+508 
+mö
+ = 
+Æm_tm
+.
+tm_mö
+;
+
+509 
+£c
+ = 
+Æm_tm
+.
+tm_£c
+;
+
+511 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+512 i‡(
+	`h≥t_£t_Æ¨m_time
+(
+hrs
+, 
+mö
+, 
+£c
+)) {
+
+518 i‡(!(
+	`CMOS_READ
+(
+RTC_CONTROL
+Ë& 
+RTC_DM_BINARY
+) ||
+
+519 
+RTC_ALWAYS_BCD
+) {
+
+520 i‡(
+£c
+ < 60)
+
+521 
+£c
+ = 
+	`bö2bcd
+(sec);
+
+523 
+£c
+ = 0xff;
+
+525 i‡(
+mö
+ < 60)
+
+526 
+mö
+ = 
+	`bö2bcd
+(min);
+
+528 
+mö
+ = 0xff;
+
+530 i‡(
+hrs
+ < 24)
+
+531 
+hrs
+ = 
+	`bö2bcd
+(hrs);
+
+533 
+hrs
+ = 0xff;
+
+535 
+	`CMOS_WRITE
+(
+hrs
+, 
+RTC_HOURS_ALARM
+);
+
+536 
+	`CMOS_WRITE
+(
+mö
+, 
+RTC_MINUTES_ALARM
+);
+
+537 
+	`CMOS_WRITE
+(
+£c
+, 
+RTC_SECONDS_ALARM
+);
+
+538 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+542 
+RTC_RD_TIME
+:
+
+544 
+	`mem£t
+(&
+wtime
+, 0, (
+πc_time
+));
+
+546 
+	`πc_gë_πc_time
+(&
+wtime
+);
+
+549 
+RTC_SET_TIME
+:
+
+551 
+πc_time
+ 
+πc_tm
+;
+
+552 
+m⁄
+, 
+day
+, 
+hrs
+, 
+mö
+, 
+£c
+, 
+À≠_yr
+;
+
+553 
+ßve_c⁄åﬁ
+, 
+ßve_‰eq_£À˘
+;
+
+554 
+yrs
+;
+
+555 #ifde‡
+CONFIG_MACH_DECSTATION
+
+
+556 
+ªÆ_yrs
+;
+
+559 i‡(!
+	`ˇ∑bÀ
+(
+CAP_SYS_TIME
+))
+
+560  -
+EACCES
+;
+
+562 i‡(
+	`c›y_‰om_u£r
+(&
+πc_tm
+, (
+πc_time
+ 
+__u£r
+ *)
+¨g
+,
+
+563 (
+πc_time
+)))
+
+564  -
+EFAULT
+;
+
+566 
+yrs
+ = 
+πc_tm
+.
+tm_yór
+ + 1900;
+
+567 
+m⁄
+ = 
+πc_tm
+.
+tm_m⁄
+ + 1;
+
+568 
+day
+ = 
+πc_tm
+.
+tm_mday
+;
+
+569 
+hrs
+ = 
+πc_tm
+.
+tm_hour
+;
+
+570 
+mö
+ = 
+πc_tm
+.
+tm_mö
+;
+
+571 
+£c
+ = 
+πc_tm
+.
+tm_£c
+;
+
+573 i‡(
+yrs
+ < 1970)
+
+574  -
+EINVAL
+;
+
+576 
+À≠_yr
+ = ((!(
+yrs
+ % 4) && (yrs % 100)) || !(yrs % 400));
+
+578 i‡((
+m⁄
+ > 12Ë|| (
+day
+ == 0))
+
+579  -
+EINVAL
+;
+
+581 i‡(
+day
+ > (
+days_ö_mo
+[
+m⁄
+] + ((m⁄ =2Ë&& 
+À≠_yr
+)))
+
+582  -
+EINVAL
+;
+
+584 i‡((
+hrs
+ >24Ë|| (
+mö
+ >60Ë|| (
+£c
+ >= 60))
+
+585  -
+EINVAL
+;
+
+587 
+yrs
+ -
+ïoch
+;
+
+588 i‡(
+yrs
+ > 255)
+
+589  -
+EINVAL
+;
+
+591 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+592 #ifde‡
+CONFIG_MACH_DECSTATION
+
+
+593 
+ªÆ_yrs
+ = 
+yrs
+;
+
+594 
+yrs
+ = 72;
+
+601 i‡(!
+À≠_yr
+ && 
+m⁄
+ < 3) {
+
+602 
+ªÆ_yrs
+--;
+
+603 
+yrs
+ = 73;
+
+609 i‡(
+yrs
+ > 169) {
+
+610 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+611  -
+EINVAL
+;
+
+613 i‡(
+yrs
+ >= 100)
+
+614 
+yrs
+ -= 100;
+
+616 i‡(!(
+	`CMOS_READ
+(
+RTC_CONTROL
+Ë& 
+RTC_DM_BINARY
+)
+
+617 || 
+RTC_ALWAYS_BCD
+) {
+
+618 
+£c
+ = 
+	`bö2bcd
+(sec);
+
+619 
+mö
+ = 
+	`bö2bcd
+(min);
+
+620 
+hrs
+ = 
+	`bö2bcd
+(hrs);
+
+621 
+day
+ = 
+	`bö2bcd
+(day);
+
+622 
+m⁄
+ = 
+	`bö2bcd
+(mon);
+
+623 
+yrs
+ = 
+	`bö2bcd
+(yrs);
+
+626 
+ßve_c⁄åﬁ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+627 
+	`CMOS_WRITE
+((
+ßve_c⁄åﬁ
+|
+RTC_SET
+), 
+RTC_CONTROL
+);
+
+628 
+ßve_‰eq_£À˘
+ = 
+	`CMOS_READ
+(
+RTC_FREQ_SELECT
+);
+
+629 
+	`CMOS_WRITE
+((
+ßve_‰eq_£À˘
+|
+RTC_DIV_RESET2
+), 
+RTC_FREQ_SELECT
+);
+
+631 #ifde‡
+CONFIG_MACH_DECSTATION
+
+
+632 
+	`CMOS_WRITE
+(
+ªÆ_yrs
+, 
+RTC_DEC_YEAR
+);
+
+634 
+	`CMOS_WRITE
+(
+yrs
+, 
+RTC_YEAR
+);
+
+635 
+	`CMOS_WRITE
+(
+m⁄
+, 
+RTC_MONTH
+);
+
+636 
+	`CMOS_WRITE
+(
+day
+, 
+RTC_DAY_OF_MONTH
+);
+
+637 
+	`CMOS_WRITE
+(
+hrs
+, 
+RTC_HOURS
+);
+
+638 
+	`CMOS_WRITE
+(
+mö
+, 
+RTC_MINUTES
+);
+
+639 
+	`CMOS_WRITE
+(
+£c
+, 
+RTC_SECONDS
+);
+
+641 
+	`CMOS_WRITE
+(
+ßve_c⁄åﬁ
+, 
+RTC_CONTROL
+);
+
+642 
+	`CMOS_WRITE
+(
+ßve_‰eq_£À˘
+, 
+RTC_FREQ_SELECT
+);
+
+644 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+647 #ifde‡
+RTC_IRQ
+
+
+648 
+RTC_IRQP_READ
+:
+
+650  
+	`put_u£r
+(
+πc_‰eq
+, (
+__u£r
+ *)
+¨g
+);
+
+652 
+RTC_IRQP_SET
+:
+
+654 
+tmp
+ = 0;
+
+655 
+vÆ
+;
+
+657 
+Êags
+;
+
+662 i‡((
+¨g
+ < 2) || (arg > 8192))
+
+663  -
+EINVAL
+;
+
+668 i‡(!
+kî√l
+ && (
+¨g
+ > 
+πc_max_u£r_‰eq
+) &&
+
+669 !
+	`ˇ∑bÀ
+(
+CAP_SYS_RESOURCE
+))
+
+670  -
+EACCES
+;
+
+672 
+¨g
+ > (1<<
+tmp
+))
+
+673 
+tmp
+++;
+
+678 i‡(
+¨g
+ !(1<<
+tmp
+))
+
+679  -
+EINVAL
+;
+
+681 
+πc_‰eq
+ = 
+¨g
+;
+
+683 
+	`•ö_lock_úqßve
+(&
+πc_lock
+, 
+Êags
+);
+
+684 i‡(
+	`h≥t_£t_≥riodic_‰eq
+(
+¨g
+)) {
+
+685 
+	`•ö_u∆ock_úqª°‹e
+(&
+πc_lock
+, 
+Êags
+);
+
+689 
+vÆ
+ = 
+	`CMOS_READ
+(
+RTC_FREQ_SELECT
+) & 0xf0;
+
+690 
+vÆ
+ |(16 - 
+tmp
+);
+
+691 
+	`CMOS_WRITE
+(
+vÆ
+, 
+RTC_FREQ_SELECT
+);
+
+692 
+	`•ö_u∆ock_úqª°‹e
+(&
+πc_lock
+, 
+Êags
+);
+
+696 
+RTC_EPOCH_READ
+:
+
+698  
+	`put_u£r
+(
+ïoch
+, (
+__u£r
+ *)
+¨g
+);
+
+700 
+RTC_EPOCH_SET
+:
+
+705 i‡(
+¨g
+ < 1900)
+
+706  -
+EINVAL
+;
+
+708 i‡(!
+	`ˇ∑bÀ
+(
+CAP_SYS_TIME
+))
+
+709  -
+EACCES
+;
+
+711 
+ïoch
+ = 
+¨g
+;
+
+715  -
+ENOTTY
+;
+
+717  
+	`c›y_to_u£r
+((
+__u£r
+ *)
+¨g
+,
+
+718 &
+wtime
+,  wtimeË? -
+EFAULT
+ : 0;
+
+719 
+	}
+}
+
+721 
+	$πc_io˘l
+(
+fûe
+ *fûe, 
+cmd
+, 
+¨g
+)
+
+723 
+ªt
+;
+
+724 
+ªt
+ = 
+	`πc_do_io˘l
+(
+cmd
+, 
+¨g
+, 0);
+
+725  
+ªt
+;
+
+726 
+	}
+}
+
+733 
+	$πc_›í
+(
+öode
+ *öode, 
+fûe
+ *file)
+
+735 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+737 i‡(
+πc_°©us
+ & 
+RTC_IS_OPEN
+)
+
+738 
+out_busy
+;
+
+740 
+πc_°©us
+ |
+RTC_IS_OPEN
+;
+
+742 
+πc_úq_d©a
+ = 0;
+
+743 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+746 
+out_busy
+:
+
+747 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+748  -
+EBUSY
+;
+
+749 
+	}
+}
+
+751 
+	$πc_Ásync
+(
+fd
+, 
+fûe
+ *
+fûp
+, 
+⁄
+)
+
+753  
+	`Ásync_hñ≥r
+(
+fd
+, 
+fûp
+, 
+⁄
+, &
+πc_async_queue
+);
+
+754 
+	}
+}
+
+756 
+	$πc_ªÀa£
+(
+öode
+ *öode, 
+fûe
+ *file)
+
+758 #ifde‡
+RTC_IRQ
+
+
+759 
+tmp
+;
+
+761 i‡(
+πc_has_úq
+ == 0)
+
+762 
+no_úq
+;
+
+769 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+770 i‡(!
+	`h≥t_mask_πc_úq_bô
+(
+RTC_PIE
+ | 
+RTC_AIE
+ | 
+RTC_UIE
+)) {
+
+771 
+tmp
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+772 
+tmp
+ &~
+RTC_PIE
+;
+
+773 
+tmp
+ &~
+RTC_AIE
+;
+
+774 
+tmp
+ &~
+RTC_UIE
+;
+
+775 
+	`CMOS_WRITE
+(
+tmp
+, 
+RTC_CONTROL
+);
+
+776 
+	`CMOS_READ
+(
+RTC_INTR_FLAGS
+);
+
+778 i‡(
+πc_°©us
+ & 
+RTC_TIMER_ON
+) {
+
+779 
+πc_°©us
+ &~
+RTC_TIMER_ON
+;
+
+780 
+	`dñ_timî
+(&
+πc_úq_timî
+);
+
+782 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+784 
+no_úq
+:
+
+787 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+788 
+πc_úq_d©a
+ = 0;
+
+789 
+πc_°©us
+ &~
+RTC_IS_OPEN
+;
+
+790 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+793 
+	}
+}
+
+795 #ifde‡
+RTC_IRQ
+
+
+796 
+	$πc_pﬁl
+(
+fûe
+ *fûe, 
+pﬁl_èbÀ
+ *
+waô
+)
+
+798 
+l
+;
+
+800 i‡(
+πc_has_úq
+ == 0)
+
+803 
+	`pﬁl_waô
+(
+fûe
+, &
+πc_waô
+, 
+waô
+);
+
+805 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+806 
+l
+ = 
+πc_úq_d©a
+;
+
+807 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+809 i‡(
+l
+ != 0)
+
+810  
+POLLIN
+ | 
+POLLRDNORM
+;
+
+812 
+	}
+}
+
+815 
+	$πc_ªgi°î
+(
+πc_èsk_t
+ *
+èsk
+)
+
+817 #i‚de‡
+RTC_IRQ
+
+
+818  -
+EIO
+;
+
+820 i‡(
+èsk
+ =
+NULL
+ ||Åask->
+func
+ == NULL)
+
+821  -
+EINVAL
+;
+
+822 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+823 i‡(
+πc_°©us
+ & 
+RTC_IS_OPEN
+) {
+
+824 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+825  -
+EBUSY
+;
+
+827 
+	`•ö_lock
+(&
+πc_èsk_lock
+);
+
+828 i‡(
+πc_ˇŒback
+) {
+
+829 
+	`•ö_u∆ock
+(&
+πc_èsk_lock
+);
+
+830 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+831  -
+EBUSY
+;
+
+833 
+πc_°©us
+ |
+RTC_IS_OPEN
+;
+
+834 
+πc_ˇŒback
+ = 
+èsk
+;
+
+835 
+	`•ö_u∆ock
+(&
+πc_èsk_lock
+);
+
+836 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+839 
+	}
+}
+
+840 
+EXPORT_SYMBOL
+(
+πc_ªgi°î
+);
+
+842 
+	$πc_uƒegi°î
+(
+πc_èsk_t
+ *
+èsk
+)
+
+844 #i‚de‡
+RTC_IRQ
+
+
+845  -
+EIO
+;
+
+847 
+tmp
+;
+
+849 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+850 
+	`•ö_lock
+(&
+πc_èsk_lock
+);
+
+851 i‡(
+πc_ˇŒback
+ !
+èsk
+) {
+
+852 
+	`•ö_u∆ock
+(&
+πc_èsk_lock
+);
+
+853 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+854  -
+ENXIO
+;
+
+856 
+πc_ˇŒback
+ = 
+NULL
+;
+
+859 i‡(!
+	`h≥t_mask_πc_úq_bô
+(
+RTC_PIE
+ | 
+RTC_AIE
+ | 
+RTC_UIE
+)) {
+
+860 
+tmp
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+861 
+tmp
+ &~
+RTC_PIE
+;
+
+862 
+tmp
+ &~
+RTC_AIE
+;
+
+863 
+tmp
+ &~
+RTC_UIE
+;
+
+864 
+	`CMOS_WRITE
+(
+tmp
+, 
+RTC_CONTROL
+);
+
+865 
+	`CMOS_READ
+(
+RTC_INTR_FLAGS
+);
+
+867 i‡(
+πc_°©us
+ & 
+RTC_TIMER_ON
+) {
+
+868 
+πc_°©us
+ &~
+RTC_TIMER_ON
+;
+
+869 
+	`dñ_timî
+(&
+πc_úq_timî
+);
+
+871 
+πc_°©us
+ &~
+RTC_IS_OPEN
+;
+
+872 
+	`•ö_u∆ock
+(&
+πc_èsk_lock
+);
+
+873 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+876 
+	}
+}
+
+877 
+EXPORT_SYMBOL
+(
+πc_uƒegi°î
+);
+
+879 
+	$πc_c⁄åﬁ
+(
+πc_èsk_t
+ *
+èsk
+, 
+cmd
+, 
+¨g
+)
+
+881 #i‚de‡
+RTC_IRQ
+
+
+882  -
+EIO
+;
+
+884 
+Êags
+;
+
+885 i‡(
+cmd
+ !
+RTC_PIE_ON
+ && cmd !
+RTC_PIE_OFF
+ && cmd !
+RTC_IRQP_SET
+)
+
+886  -
+EINVAL
+;
+
+887 
+	`•ö_lock_úqßve
+(&
+πc_èsk_lock
+, 
+Êags
+);
+
+888 i‡(
+πc_ˇŒback
+ !
+èsk
+) {
+
+889 
+	`•ö_u∆ock_úqª°‹e
+(&
+πc_èsk_lock
+, 
+Êags
+);
+
+890  -
+ENXIO
+;
+
+892 
+	`•ö_u∆ock_úqª°‹e
+(&
+πc_èsk_lock
+, 
+Êags
+);
+
+893  
+	`πc_do_io˘l
+(
+cmd
+, 
+¨g
+, 1);
+
+895 
+	}
+}
+
+896 
+EXPORT_SYMBOL
+(
+πc_c⁄åﬁ
+);
+
+902 c⁄° 
+fûe_›î©i⁄s
+ 
+	gπc_f›s
+ = {
+
+903 .
+ow√r
+ = 
+THIS_MODULE
+,
+
+904 .
+	gŒ£ek
+ = 
+no_Œ£ek
+,
+
+905 .
+	gªad
+ = 
+πc_ªad
+,
+
+906 #ifde‡
+RTC_IRQ
+
+
+907 .
+	gpﬁl
+ = 
+πc_pﬁl
+,
+
+909 .
+	gu∆ocked_io˘l
+ = 
+πc_io˘l
+,
+
+910 .
+	g›í
+ = 
+πc_›í
+,
+
+911 .
+	gªÀa£
+ = 
+πc_ªÀa£
+,
+
+912 .
+	gÁsync
+ = 
+πc_Ásync
+,
+
+915 
+miscdevi˚
+ 
+	gπc_dev
+ = {
+
+916 .
+mö‹
+ = 
+RTC_MINOR
+,
+
+917 .
+	g«me
+ = "rtc",
+
+918 .
+	gf›s
+ = &
+πc_f›s
+,
+
+921 #ifde‡
+CONFIG_PROC_FS
+
+
+922 c⁄° 
+fûe_›î©i⁄s
+ 
+	gπc_¥oc_f›s
+ = {
+
+923 .
+ow√r
+ = 
+THIS_MODULE
+,
+
+924 .
+	g›í
+ = 
+πc_¥oc_›í
+,
+
+925 .
+	gªad
+ = 
+£q_ªad
+,
+
+926 .
+	gŒ£ek
+ = 
+£q_l£ek
+,
+
+927 .
+	gªÀa£
+ = 
+sögÀ_ªÀa£
+,
+
+931 
+ªsour˚_size_t
+ 
+	gπc_size
+;
+
+933 
+ªsour˚
+ * 
+__öô
+ 
+	$πc_ªque°_ªgi⁄
+(
+ªsour˚_size_t
+ 
+size
+)
+
+935 
+ªsour˚
+ *
+r
+;
+
+937 i‡(
+RTC_IOMAPPED
+)
+
+938 
+r
+ = 
+	`ªque°_ªgi⁄
+(
+	`RTC_PORT
+(0), 
+size
+, "rtc");
+
+940 
+r
+ = 
+	`ªque°_mem_ªgi⁄
+(
+	`RTC_PORT
+(0), 
+size
+, "rtc");
+
+942 i‡(
+r
+)
+
+943 
+πc_size
+ = 
+size
+;
+
+945  
+r
+;
+
+946 
+	}
+}
+
+948 
+	$πc_ªÀa£_ªgi⁄
+()
+
+950 i‡(
+RTC_IOMAPPED
+)
+
+951 
+	`ªÀa£_ªgi⁄
+(
+	`RTC_PORT
+(0), 
+πc_size
+);
+
+953 
+	`ªÀa£_mem_ªgi⁄
+(
+	`RTC_PORT
+(0), 
+πc_size
+);
+
+954 
+	}
+}
+
+956 
+__öô
+ 
+	$πc_öô
+()
+
+958 #ifde‡
+CONFIG_PROC_FS
+
+
+964 
+¥oc_dú_íåy
+ *
+ít
+;
+
+969 #i‡
+	`deföed
+(
+__Æpha__
+Ë|| deföed(
+__mùs__
+)
+
+970 
+yór
+, 
+˘æ
+;
+
+971 *
+guess
+ = 
+NULL
+;
+
+973 #ifde‡
+CONFIG_SPARC32
+
+
+996 
+devi˚_node
+ *
+ebus_dp
+;
+
+997 
+∂©f‹m_devi˚
+ *
+›
+;
+
+999 *
+r
+;
+
+1000 #ifde‡
+RTC_IRQ
+
+
+1001 
+úq_h™dÀr_t
+ 
+πc_öt_h™dÀr_±r
+;
+
+1005 #ifde‡
+CONFIG_SPARC32
+
+
+1006 
+	`f‹_óch_node_by_«me
+(
+ebus_dp
+, "ebus") {
+
+1007 
+devi˚_node
+ *
+dp
+;
+
+1008 
+dp
+ = 
+ebus_dp
+; dp; d∞dp->
+siblög
+) {
+
+1009 i‡(!
+	`°rcmp
+(
+dp
+->
+«me
+, "rtc")) {
+
+1010 
+›
+ = 
+	`of_föd_devi˚_by_node
+(
+dp
+);
+
+1011 i‡(
+›
+) {
+
+1012 
+πc_p‹t
+ = 
+›
+->
+ªsour˚
+[0].
+°¨t
+;
+
+1013 
+πc_úq
+ = 
+›
+->
+úqs
+[0];
+
+1014 
+found
+;
+
+1019 
+πc_has_úq
+ = 0;
+
+1020 
+	`¥ötk
+(
+KERN_ERR
+ "rtc_init:Ço PCÑtc found\n");
+
+1021  -
+EIO
+;
+
+1023 
+found
+:
+
+1024 i‡(!
+πc_úq
+) {
+
+1025 
+πc_has_úq
+ = 0;
+
+1026 
+no_úq
+;
+
+1033 i‡(
+	`ªque°_úq
+(
+πc_úq
+, 
+πc_öãºu±
+, 
+IRQF_SHARED
+, "rtc",
+
+1034 (*)&
+πc_p‹t
+)) {
+
+1035 
+πc_has_úq
+ = 0;
+
+1036 
+	`¥ötk
+(
+KERN_ERR
+ "πc: c™nŸÑegi°î IRQ %d\n", 
+πc_úq
+);
+
+1037  -
+EIO
+;
+
+1039 
+no_úq
+:
+
+1041 
+r
+ = 
+	`πc_ªque°_ªgi⁄
+(
+RTC_IO_EXTENT
+);
+
+1050 i‡(!
+r
+)
+
+1051 
+r
+ = 
+	`πc_ªque°_ªgi⁄
+(
+RTC_IO_EXTENT_USED
+);
+
+1052 i‡(!
+r
+) {
+
+1053 #ifde‡
+RTC_IRQ
+
+
+1054 
+πc_has_úq
+ = 0;
+
+1056 
+	`¥ötk
+(
+KERN_ERR
+ "rtc: I/OÑesource %lx isÇot free.\n",
+
+1057 ()(
+	`RTC_PORT
+(0)));
+
+1058  -
+EIO
+;
+
+1061 #ifde‡
+RTC_IRQ
+
+
+1062 i‡(
+	`is_h≥t_íabÀd
+()) {
+
+1063 
+îr
+;
+
+1065 
+πc_öt_h™dÀr_±r
+ = 
+h≥t_πc_öãºu±
+;
+
+1066 
+îr
+ = 
+	`h≥t_ªgi°î_úq_h™dÀr
+(
+πc_öãºu±
+);
+
+1067 i‡(
+îr
+ != 0) {
+
+1068 
+	`¥ötk
+(
+KERN_WARNING
+ "hpet_register_irq_handler failed "
+
+1070  
+îr
+;
+
+1073 
+πc_öt_h™dÀr_±r
+ = 
+πc_öãºu±
+;
+
+1076 i‡(
+	`ªque°_úq
+(
+RTC_IRQ
+, 
+πc_öt_h™dÀr_±r
+, 
+IRQF_DISABLED
+,
+
+1077 "πc", 
+NULL
+)) {
+
+1079 
+πc_has_úq
+ = 0;
+
+1080 
+	`¥ötk
+(
+KERN_ERR
+ "πc: IRQ %d i†nŸ fªe.\n", 
+RTC_IRQ
+);
+
+1081 
+	`πc_ªÀa£_ªgi⁄
+();
+
+1083  -
+EIO
+;
+
+1085 
+	`h≥t_πc_timî_öô
+();
+
+1091 i‡(
+	`misc_ªgi°î
+(&
+πc_dev
+)) {
+
+1092 #ifde‡
+RTC_IRQ
+
+
+1093 
+	`‰ì_úq
+(
+RTC_IRQ
+, 
+NULL
+);
+
+1094 
+	`h≥t_uƒegi°î_úq_h™dÀr
+(
+πc_öãºu±
+);
+
+1095 
+πc_has_úq
+ = 0;
+
+1097 
+	`πc_ªÀa£_ªgi⁄
+();
+
+1098  -
+ENODEV
+;
+
+1101 #ifde‡
+CONFIG_PROC_FS
+
+
+1102 
+ít
+ = 
+	`¥oc_¸óã
+("drivî/πc", 0, 
+NULL
+, &
+πc_¥oc_f›s
+);
+
+1103 i‡(!
+ít
+)
+
+1104 
+	`¥ötk
+(
+KERN_WARNING
+ "rtc: FailedÅoÑegister withÖrocfs.\n");
+
+1107 #i‡
+	`deföed
+(
+__Æpha__
+Ë|| deföed(
+__mùs__
+)
+
+1108 
+πc_‰eq
+ = 
+HZ
+;
+
+1113 i‡(
+	`πc_is_upd©ög
+() != 0)
+
+1114 
+	`m¶ìp
+(20);
+
+1116 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+1117 
+yór
+ = 
+	`CMOS_READ
+(
+RTC_YEAR
+);
+
+1118 
+˘æ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+1119 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+1121 i‡(!(
+˘æ
+ & 
+RTC_DM_BINARY
+Ë|| 
+RTC_ALWAYS_BCD
+)
+
+1122 
+yór
+ = 
+	`bcd2bö
+(year);
+
+1124 i‡(
+yór
+ < 20) {
+
+1125 
+ïoch
+ = 2000;
+
+1126 
+guess
+ = "SRM (post-2000)";
+
+1127 } i‡(
+yór
+ >= 20 && year < 48) {
+
+1128 
+ïoch
+ = 1980;
+
+1129 
+guess
+ = "ARC console";
+
+1130 } i‡(
+yór
+ >= 48 && year < 72) {
+
+1131 
+ïoch
+ = 1952;
+
+1132 
+guess
+ = "Digital UNIX";
+
+1133 #i‡
+	`deföed
+(
+__mùs__
+)
+
+1134 } i‡(
+yór
+ >= 72 && year < 74) {
+
+1135 
+ïoch
+ = 2000;
+
+1136 
+guess
+ = "Digital DECstation";
+
+1138 } i‡(
+yór
+ >= 70) {
+
+1139 
+ïoch
+ = 1900;
+
+1140 
+guess
+ = "Standard PC (1900)";
+
+1143 i‡(
+guess
+)
+
+1144 
+	`¥ötk
+(
+KERN_INFO
+ "rtc: %sÉpoch (%lu) detected\n",
+
+1145 
+guess
+, 
+ïoch
+);
+
+1147 #ifde‡
+RTC_IRQ
+
+
+1148 i‡(
+πc_has_úq
+ == 0)
+
+1149 
+no_úq2
+;
+
+1151 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+1152 
+πc_‰eq
+ = 1024;
+
+1153 i‡(!
+	`h≥t_£t_≥riodic_‰eq
+(
+πc_‰eq
+)) {
+
+1158 
+	`CMOS_WRITE
+(((
+	`CMOS_READ
+(
+RTC_FREQ_SELECT
+) & 0xF0) | 0x06),
+
+1159 
+RTC_FREQ_SELECT
+);
+
+1161 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+1162 
+no_úq2
+:
+
+1165 (Ë
+	`öô_sys˘l
+();
+
+1167 
+	`¥ötk
+(
+KERN_INFO
+ "Ró»TimêClock Drivî v" 
+RTC_VERSION
+ "\n");
+
+1170 
+	}
+}
+
+1172 
+__exô
+ 
+	$πc_exô
+()
+
+1174 
+	`˛ónup_sys˘l
+();
+
+1175 
+	`ªmove_¥oc_íåy
+("drivî/πc", 
+NULL
+);
+
+1176 
+	`misc_dîegi°î
+(&
+πc_dev
+);
+
+1178 #ifde‡
+CONFIG_SPARC32
+
+
+1179 i‡(
+πc_has_úq
+)
+
+1180 
+	`‰ì_úq
+(
+πc_úq
+, &
+πc_p‹t
+);
+
+1182 
+	`πc_ªÀa£_ªgi⁄
+();
+
+1183 #ifde‡
+RTC_IRQ
+
+
+1184 i‡(
+πc_has_úq
+) {
+
+1185 
+	`‰ì_úq
+(
+RTC_IRQ
+, 
+NULL
+);
+
+1186 
+	`h≥t_uƒegi°î_úq_h™dÀr
+(
+h≥t_πc_öãºu±
+);
+
+1190 
+	}
+}
+
+1192 
+moduÀ_öô
+(
+πc_öô
+);
+
+1193 
+moduÀ_exô
+(
+πc_exô
+);
+
+1195 #ifde‡
+RTC_IRQ
+
+
+1208 
+	$πc_dr›≥d_úq
+(
+d©a
+)
+
+1210 
+‰eq
+;
+
+1212 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+1214 i‡(
+	`h≥t_πc_dr›≥d_úq
+()) {
+
+1215 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+1220 i‡(
+πc_°©us
+ & 
+RTC_TIMER_ON
+)
+
+1221 
+	`mod_timî
+(&
+πc_úq_timî
+, 
+jiffõs
+ + 
+HZ
+/
+πc_‰eq
+ + 2*HZ/100);
+
+1223 
+πc_úq_d©a
+ +((
+πc_‰eq
+/
+HZ
+)<<8);
+
+1224 
+πc_úq_d©a
+ &= ~0xff;
+
+1225 
+πc_úq_d©a
+ |(
+	`CMOS_READ
+(
+RTC_INTR_FLAGS
+) & 0xF0);
+
+1227 
+‰eq
+ = 
+πc_‰eq
+;
+
+1229 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+1231 
+	`¥ötk_øãlimôed
+(
+KERN_WARNING
+ "rtc:Üost some interruptsát %ldHz.\n",
+
+1232 
+‰eq
+);
+
+1235 
+	`wake_up_öãºu±ibÀ
+(&
+πc_waô
+);
+
+1237 
+	`kûl_Ásync
+(&
+πc_async_queue
+, 
+SIGIO
+, 
+POLL_IN
+);
+
+1238 
+	}
+}
+
+1241 #ifde‡
+CONFIG_PROC_FS
+
+
+1246 
+	$πc_¥oc_show
+(
+£q_fûe
+ *
+£q
+, *
+v
+)
+
+1248 
+	#YN
+(
+bô
+Ë((
+˘æ
+ & bôË? "yes" : "no")
+
+	)
+
+1249 
+	#NY
+(
+bô
+Ë((
+˘æ
+ & bôË? "no" : "yes")
+
+	)
+
+1250 
+πc_time
+ 
+tm
+;
+
+1251 
+b©t
+, 
+˘æ
+;
+
+1252 
+‰eq
+;
+
+1254 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+1255 
+b©t
+ = 
+	`CMOS_READ
+(
+RTC_VALID
+Ë& 
+RTC_VRT
+;
+
+1256 
+˘æ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+1257 
+‰eq
+ = 
+πc_‰eq
+;
+
+1258 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+1261 
+	`πc_gë_πc_time
+(&
+tm
+);
+
+1267 
+	`£q_¥ötf
+(
+£q
+,
+
+1271 
+tm
+.
+tm_hour
+,Åm.
+tm_mö
+,Åm.
+tm_£c
+,
+
+1272 
+tm
+.
+tm_yór
+ + 1900,Åm.
+tm_m⁄
+ + 1,Åm.
+tm_mday
+, 
+ïoch
+);
+
+1274 
+	`gë_πc_Æm_time
+(&
+tm
+);
+
+1281 
+	`£q_puts
+(
+£q
+, "alarm\t\t: ");
+
+1282 i‡(
+tm
+.
+tm_hour
+ <= 24)
+
+1283 
+	`£q_¥ötf
+(
+£q
+, "%02d:", 
+tm
+.
+tm_hour
+);
+
+1285 
+	`£q_puts
+(
+£q
+, "**:");
+
+1287 i‡(
+tm
+.
+tm_mö
+ <= 59)
+
+1288 
+	`£q_¥ötf
+(
+£q
+, "%02d:", 
+tm
+.
+tm_mö
+);
+
+1290 
+	`£q_puts
+(
+£q
+, "**:");
+
+1292 i‡(
+tm
+.
+tm_£c
+ <= 59)
+
+1293 
+	`£q_¥ötf
+(
+£q
+, "%02d\n", 
+tm
+.
+tm_£c
+);
+
+1295 
+	`£q_puts
+(
+£q
+, "**\n");
+
+1297 
+	`£q_¥ötf
+(
+£q
+,
+
+1307 
+	`YN
+(
+RTC_DST_EN
+),
+
+1308 
+	`NY
+(
+RTC_DM_BINARY
+),
+
+1309 
+	`YN
+(
+RTC_24H
+),
+
+1310 
+	`YN
+(
+RTC_SQWE
+),
+
+1311 
+	`YN
+(
+RTC_AIE
+),
+
+1312 
+	`YN
+(
+RTC_UIE
+),
+
+1313 
+	`YN
+(
+RTC_PIE
+),
+
+1314 
+‰eq
+,
+
+1315 
+b©t
+ ? "okay" : "dead");
+
+1318 #unde‡
+YN
+
+
+1319 #unde‡
+NY
+
+
+1320 
+	}
+}
+
+1322 
+	$πc_¥oc_›í
+(
+öode
+ *öode, 
+fûe
+ *file)
+
+1324  
+	`sögÀ_›í
+(
+fûe
+, 
+πc_¥oc_show
+, 
+NULL
+);
+
+1325 
+	}
+}
+
+1328 
+	$πc_gë_πc_time
+(
+πc_time
+ *
+πc_tm
+)
+
+1330 
+uù_w©chdog
+ = 
+jiffõs
+, 
+Êags
+;
+
+1331 
+˘æ
+;
+
+1332 #ifde‡
+CONFIG_MACH_DECSTATION
+
+
+1333 
+ªÆ_yór
+;
+
+1346 
+	`πc_is_upd©ög
+() != 0 &&
+
+1347 
+	`time_bef‹e
+(
+jiffõs
+, 
+uù_w©chdog
+ + 2*
+HZ
+/100))
+
+1348 
+	`˝u_ªœx
+();
+
+1356 
+	`•ö_lock_úqßve
+(&
+πc_lock
+, 
+Êags
+);
+
+1357 
+πc_tm
+->
+tm_£c
+ = 
+	`CMOS_READ
+(
+RTC_SECONDS
+);
+
+1358 
+πc_tm
+->
+tm_mö
+ = 
+	`CMOS_READ
+(
+RTC_MINUTES
+);
+
+1359 
+πc_tm
+->
+tm_hour
+ = 
+	`CMOS_READ
+(
+RTC_HOURS
+);
+
+1360 
+πc_tm
+->
+tm_mday
+ = 
+	`CMOS_READ
+(
+RTC_DAY_OF_MONTH
+);
+
+1361 
+πc_tm
+->
+tm_m⁄
+ = 
+	`CMOS_READ
+(
+RTC_MONTH
+);
+
+1362 
+πc_tm
+->
+tm_yór
+ = 
+	`CMOS_READ
+(
+RTC_YEAR
+);
+
+1364 
+πc_tm
+->
+tm_wday
+ = 
+	`CMOS_READ
+(
+RTC_DAY_OF_WEEK
+);
+
+1366 #ifde‡
+CONFIG_MACH_DECSTATION
+
+
+1367 
+ªÆ_yór
+ = 
+	`CMOS_READ
+(
+RTC_DEC_YEAR
+);
+
+1369 
+˘æ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+1370 
+	`•ö_u∆ock_úqª°‹e
+(&
+πc_lock
+, 
+Êags
+);
+
+1372 i‡(!(
+˘æ
+ & 
+RTC_DM_BINARY
+Ë|| 
+RTC_ALWAYS_BCD
+) {
+
+1373 
+πc_tm
+->
+tm_£c
+ = 
+	`bcd2bö
+(rtc_tm->tm_sec);
+
+1374 
+πc_tm
+->
+tm_mö
+ = 
+	`bcd2bö
+(rtc_tm->tm_min);
+
+1375 
+πc_tm
+->
+tm_hour
+ = 
+	`bcd2bö
+(rtc_tm->tm_hour);
+
+1376 
+πc_tm
+->
+tm_mday
+ = 
+	`bcd2bö
+(rtc_tm->tm_mday);
+
+1377 
+πc_tm
+->
+tm_m⁄
+ = 
+	`bcd2bö
+(rtc_tm->tm_mon);
+
+1378 
+πc_tm
+->
+tm_yór
+ = 
+	`bcd2bö
+(rtc_tm->tm_year);
+
+1379 
+πc_tm
+->
+tm_wday
+ = 
+	`bcd2bö
+(rtc_tm->tm_wday);
+
+1382 #ifde‡
+CONFIG_MACH_DECSTATION
+
+
+1383 
+πc_tm
+->
+tm_yór
+ +
+ªÆ_yór
+ - 72;
+
+1390 
+πc_tm
+->
+tm_yór
+ +
+ïoch
+ - 1900;
+
+1391 i‡(
+πc_tm
+->
+tm_yór
+ <= 69)
+
+1392 
+πc_tm
+->
+tm_yór
+ += 100;
+
+1394 
+πc_tm
+->
+tm_m⁄
+--;
+
+1395 
+	}
+}
+
+1397 
+	$gë_πc_Æm_time
+(
+πc_time
+ *
+Æm_tm
+)
+
+1399 
+˘æ
+;
+
+1405 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+1406 
+Æm_tm
+->
+tm_£c
+ = 
+	`CMOS_READ
+(
+RTC_SECONDS_ALARM
+);
+
+1407 
+Æm_tm
+->
+tm_mö
+ = 
+	`CMOS_READ
+(
+RTC_MINUTES_ALARM
+);
+
+1408 
+Æm_tm
+->
+tm_hour
+ = 
+	`CMOS_READ
+(
+RTC_HOURS_ALARM
+);
+
+1409 
+˘æ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+1410 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+1412 i‡(!(
+˘æ
+ & 
+RTC_DM_BINARY
+Ë|| 
+RTC_ALWAYS_BCD
+) {
+
+1413 
+Æm_tm
+->
+tm_£c
+ = 
+	`bcd2bö
+(alm_tm->tm_sec);
+
+1414 
+Æm_tm
+->
+tm_mö
+ = 
+	`bcd2bö
+(alm_tm->tm_min);
+
+1415 
+Æm_tm
+->
+tm_hour
+ = 
+	`bcd2bö
+(alm_tm->tm_hour);
+
+1417 
+	}
+}
+
+1419 #ifde‡
+RTC_IRQ
+
+
+1430 
+	$mask_πc_úq_bô_locked
+(
+bô
+)
+
+1432 
+vÆ
+;
+
+1434 i‡(
+	`h≥t_mask_πc_úq_bô
+(
+bô
+))
+
+1436 
+vÆ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+1437 
+vÆ
+ &~
+bô
+;
+
+1438 
+	`CMOS_WRITE
+(
+vÆ
+, 
+RTC_CONTROL
+);
+
+1439 
+	`CMOS_READ
+(
+RTC_INTR_FLAGS
+);
+
+1441 
+πc_úq_d©a
+ = 0;
+
+1442 
+	}
+}
+
+1444 
+	$£t_πc_úq_bô_locked
+(
+bô
+)
+
+1446 
+vÆ
+;
+
+1448 i‡(
+	`h≥t_£t_πc_úq_bô
+(
+bô
+))
+
+1450 
+vÆ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+1451 
+vÆ
+ |
+bô
+;
+
+1452 
+	`CMOS_WRITE
+(
+vÆ
+, 
+RTC_CONTROL
+);
+
+1453 
+	`CMOS_READ
+(
+RTC_INTR_FLAGS
+);
+
+1455 
+πc_úq_d©a
+ = 0;
+
+1456 
+	}
+}
+
+1459 
+MODULE_AUTHOR
+("Paul Gortmaker");
+
+1460 
+MODULE_LICENSE
+("GPL");
+
+1461 
+MODULE_ALIAS_MISCDEV
+(
+RTC_MINOR
+);
+
+	@rtc-cmos-nay.c
+
+33 
+	~<löux/kî√l.h
+>
+
+34 
+	~<löux/moduÀ.h
+>
+
+35 
+	~<löux/öô.h
+>
+
+36 
+	~<löux/öãºu±.h
+>
+
+37 
+	~<löux/•ölock.h
+>
+
+38 
+	~<löux/∂©f‹m_devi˚.h
+>
+
+39 
+	~<löux/mod_devi˚èbÀ.h
+>
+
+40 
+	~<löux/log2.h
+>
+
+41 
+	~<löux/pm.h
+>
+
+42 
+	~<löux/of.h
+>
+
+43 
+	~<löux/of_∂©f‹m.h
+>
+
+46 
+	~<asm-gíîic/πc.h
+>
+
+48 
+	scmos_πc
+ {
+
+49 
+πc_devi˚
+ *
+	mπc
+;
+
+50 
+devi˚
+ *
+	mdev
+;
+
+51 
+	múq
+;
+
+52 
+ªsour˚
+ *
+	miomem
+;
+
+54 (*
+	mwake_⁄
+)(
+	mdevi˚
+ *);
+
+55 (*
+	mwake_off
+)(
+	mdevi˚
+ *);
+
+57 
+u8
+ 
+	míabÀd_wake
+;
+
+59 
+u8
+ 
+	msu•íd_˘æ
+;
+
+62 
+u8
+ 
+	mday_Ærm
+;
+
+63 
+u8
+ 
+	mm⁄_Ærm
+;
+
+64 
+u8
+ 
+	m˚¡ury
+;
+
+69 
+	#is_vÆid_úq
+(
+n
+Ë(“Ë> 0)
+
+	)
+
+71 c⁄° 
+	gdrivî_«me
+[] = "rtc_cmos";
+
+77 
+	#RTC_IRQMASK
+ (
+RTC_PF
+ | 
+RTC_AF
+ | 
+RTC_UF
+)
+
+78 
+
+	)
+
+79 
+ölöe
+ 
+	$is_öå
+(
+u8
+ 
+πc_öå
+)
+
+81 i‡(!(
+πc_öå
+ & 
+RTC_IRQF
+))
+
+83  
+πc_öå
+ & 
+RTC_IRQMASK
+;
+
+84 
+	}
+}
+
+98 #ifde‡
+CONFIG_HPET_EMULATE_RTC
+
+
+99 
+	~<asm/h≥t.h
+>
+
+102 
+ölöe
+ 
+	$is_h≥t_íabÀd
+()
+
+105 
+	}
+}
+
+107 
+ölöe
+ 
+	$h≥t_mask_πc_úq_bô
+(
+mask
+)
+
+110 
+	}
+
+	g}πc
+.
+h
+
+
+112 
+ölöe
+ 
+	$h≥t_£t_πc_úq_bô
+(
+mask
+)
+
+115 
+	}
+}
+
+117 
+ölöe
+ 
+
+118 
+	$h≥t_£t_Æ¨m_time
+(
+hrs
+, 
+mö
+, 
+£c
+)
+
+121 
+	}
+}
+
+123 
+ölöe
+ 
+	$h≥t_£t_≥riodic_‰eq
+(
+‰eq
+)
+
+126 
+	}
+}
+
+128 
+ölöe
+ 
+	$h≥t_πc_dr›≥d_úq
+()
+
+131 
+	}
+}
+
+133 
+ölöe
+ 
+	$h≥t_πc_timî_öô
+()
+
+136 
+	}
+}
+
+138 
+úq_h™dÀr_t
+ 
+h≥t_πc_öãºu±
+;
+
+140 
+ölöe
+ 
+	$h≥t_ªgi°î_úq_h™dÀr
+(
+úq_h™dÀr_t
+ 
+h™dÀr
+)
+
+143 
+	}
+}
+
+145 
+ölöe
+ 
+	$h≥t_uƒegi°î_úq_h™dÀr
+(
+úq_h™dÀr_t
+ 
+h™dÀr
+)
+
+148 
+	}
+}
+
+154 #ifde‡
+RTC_PORT
+
+
+160 
+	#ˇn_b™k2
+ 
+åue
+
+
+	)
+
+162 
+ölöe
+ 
+	$cmos_ªad_b™k2
+(
+addr
+)
+
+164 
+	`outb
+(
+addr
+, 
+	`RTC_PORT
+(2));
+
+165  
+	`öb
+(
+	`RTC_PORT
+(3));
+
+166 
+	}
+}
+
+168 
+ölöe
+ 
+	$cmos_wrôe_b™k2
+(
+vÆ
+, 
+addr
+)
+
+170 
+	`outb
+(
+addr
+, 
+	`RTC_PORT
+(2));
+
+171 
+	`outb
+(
+vÆ
+, 
+	`RTC_PORT
+(3));
+
+172 
+	}
+}
+
+176 
+	#ˇn_b™k2
+ 
+Ál£
+
+
+	)
+
+178 
+ölöe
+ 
+	$cmos_ªad_b™k2
+(
+addr
+)
+
+181 
+	}
+}
+
+183 
+ölöe
+ 
+	$cmos_wrôe_b™k2
+(
+vÆ
+, 
+addr
+)
+
+185 
+	}
+}
+
+191 
+	$cmos_ªad_time
+(
+devi˚
+ *
+dev
+, 
+πc_time
+ *
+t
+)
+
+197 
+	`gë_πc_time
+(
+t
+);
+
+199 
+	}
+}
+
+201 
+	$cmos_£t_time
+(
+devi˚
+ *
+dev
+, 
+πc_time
+ *
+t
+)
+
+209  
+	`£t_πc_time
+(
+t
+);
+
+210 
+	}
+}
+
+212 
+	$cmos_ªad_Æ¨m
+(
+devi˚
+ *
+dev
+, 
+πc_wkÆrm
+ *
+t
+)
+
+214 
+cmos_πc
+ *
+cmos
+ = 
+	`dev_gë_drvd©a
+(
+dev
+);
+
+215 
+πc_c⁄åﬁ
+;
+
+218 i‡(!
+	`is_vÆid_úq
+(
+cmos
+->
+úq
+))
+
+219  -
+EIO
+;
+
+229 
+t
+->
+time
+.
+tm_mday
+ = -1;
+
+230 
+t
+->
+time
+.
+tm_m⁄
+ = -1;
+
+232 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+235 
+t
+->
+time
+.
+tm_£c
+ = 
+	`CMOS_READ
+(
+RTC_SECONDS_ALARM
+);
+
+237 
+t
+->
+time
+.
+tm_mö
+ = 
+	`CMOS_READ
+(
+RTC_MINUTES_ALARM
+);
+
+239 
+t
+->
+time
+.
+tm_hour
+ = 
+	`CMOS_READ
+(
+RTC_HOURS_ALARM
+);
+
+256 i‡(
+cmos
+->
+day_Ærm
+) {
+
+258 
+t
+->
+time
+.
+tm_mday
+ = 
+	`CMOS_READ
+(
+cmos
+->
+day_Ærm
+) & 0x3f;
+
+261 i‡(!
+t
+->
+time
+.
+tm_mday
+)
+
+262 
+t
+->
+time
+.
+tm_mday
+ = -1;
+
+264 i‡(
+cmos
+->
+m⁄_Ærm
+) {
+
+265 
+t
+->
+time
+.
+tm_m⁄
+ = 
+	`CMOS_READ
+(
+cmos
+->
+m⁄_Ærm
+);
+
+268 i‡(!
+t
+->
+time
+.
+tm_m⁄
+)
+
+269 
+t
+->
+time
+.
+tm_m⁄
+ = -1;
+
+274 
+πc_c⁄åﬁ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+275 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+279 i‡(!(
+πc_c⁄åﬁ
+ & 
+RTC_DM_BINARY
+ ) || 
+RTC_ALWAYS_BCD
+) {
+
+281 i‡((()
+t
+->
+time
+.
+tm_£c
+) < 0x60)
+
+282 
+t
+->
+time
+.
+tm_£c
+ = 
+	`bcd2bö
+(t->time.tm_sec);
+
+284 
+t
+->
+time
+.
+tm_£c
+ = -1;
+
+285 i‡((()
+t
+->
+time
+.
+tm_mö
+) < 0x60)
+
+286 
+t
+->
+time
+.
+tm_mö
+ = 
+	`bcd2bö
+(t->time.tm_min);
+
+288 
+t
+->
+time
+.
+tm_mö
+ = -1;
+
+289 i‡((()
+t
+->
+time
+.
+tm_hour
+) < 0x24)
+
+290 
+t
+->
+time
+.
+tm_hour
+ = 
+	`bcd2bö
+(t->time.tm_hour);
+
+292 
+t
+->
+time
+.
+tm_hour
+ = -1;
+
+294 i‡(
+cmos
+->
+day_Ærm
+) {
+
+295 i‡((()
+t
+->
+time
+.
+tm_mday
+) <= 0x31)
+
+296 
+t
+->
+time
+.
+tm_mday
+ = 
+	`bcd2bö
+(t->time.tm_mday);
+
+298 
+t
+->
+time
+.
+tm_mday
+ = -1;
+
+300 i‡(
+cmos
+->
+m⁄_Ærm
+) {
+
+301 i‡((()
+t
+->
+time
+.
+tm_m⁄
+) <= 0x12)
+
+302 
+t
+->
+time
+.
+tm_m⁄
+ = 
+	`bcd2bö
+(t->time.tm_mon)-1;
+
+304 
+t
+->
+time
+.
+tm_m⁄
+ = -1;
+
+312 
+t
+->
+time
+.
+tm_yór
+ = -1;
+
+314 
+t
+->
+íabÀd
+ = !!(
+πc_c⁄åﬁ
+ & 
+RTC_AIE
+);
+
+315 
+t
+->
+≥ndög
+ = 0;
+
+318 
+	}
+}
+
+321 
+	$cmos_checköå
+(
+cmos_πc
+ *
+cmos
+, 
+πc_c⁄åﬁ
+)
+
+323 
+πc_öå
+;
+
+328 
+πc_öå
+ = 
+	`CMOS_READ
+(
+RTC_INTR_FLAGS
+);
+
+330 i‡(
+	`is_h≥t_íabÀd
+())
+
+333 
+πc_öå
+ &(
+πc_c⁄åﬁ
+ & 
+RTC_IRQMASK
+Ë| 
+RTC_IRQF
+;
+
+334 i‡(
+	`is_öå
+(
+πc_öå
+))
+
+335 
+	`πc_upd©e_úq
+(
+cmos
+->
+πc
+, 1, 
+πc_öå
+);
+
+336 
+	}
+}
+
+338 
+	$cmos_úq_íabÀ
+(
+cmos_πc
+ *
+cmos
+, 
+mask
+)
+
+340 
+πc_c⁄åﬁ
+;
+
+345 
+πc_c⁄åﬁ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+346 
+	`cmos_checköå
+(
+cmos
+, 
+πc_c⁄åﬁ
+);
+
+348 
+πc_c⁄åﬁ
+ |
+mask
+;
+
+349 
+	`CMOS_WRITE
+(
+πc_c⁄åﬁ
+, 
+RTC_CONTROL
+);
+
+350 
+	`h≥t_£t_πc_úq_bô
+(
+mask
+);
+
+352 
+	`cmos_checköå
+(
+cmos
+, 
+πc_c⁄åﬁ
+);
+
+353 
+	}
+}
+
+355 
+	$cmos_úq_dißbÀ
+(
+cmos_πc
+ *
+cmos
+, 
+mask
+)
+
+357 
+πc_c⁄åﬁ
+;
+
+359 
+πc_c⁄åﬁ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+360 
+πc_c⁄åﬁ
+ &~
+mask
+;
+
+361 
+	`CMOS_WRITE
+(
+πc_c⁄åﬁ
+, 
+RTC_CONTROL
+);
+
+362 
+	`h≥t_mask_πc_úq_bô
+(
+mask
+);
+
+364 
+	`cmos_checköå
+(
+cmos
+, 
+πc_c⁄åﬁ
+);
+
+365 
+	}
+}
+
+367 
+	$cmos_£t_Æ¨m
+(
+devi˚
+ *
+dev
+, 
+πc_wkÆrm
+ *
+t
+)
+
+369 
+cmos_πc
+ *
+cmos
+ = 
+	`dev_gë_drvd©a
+(
+dev
+);
+
+370 
+m⁄
+, 
+mday
+, 
+hrs
+, 
+mö
+, 
+£c
+, 
+πc_c⁄åﬁ
+;
+
+372 i‡(!
+	`is_vÆid_úq
+(
+cmos
+->
+úq
+))
+
+373  -
+EIO
+;
+
+375 
+m⁄
+ = 
+t
+->
+time
+.
+tm_m⁄
+ + 1;
+
+376 
+mday
+ = 
+t
+->
+time
+.
+tm_mday
+;
+
+377 
+hrs
+ = 
+t
+->
+time
+.
+tm_hour
+;
+
+378 
+mö
+ = 
+t
+->
+time
+.
+tm_mö
+;
+
+379 
+£c
+ = 
+t
+->
+time
+.
+tm_£c
+;
+
+381 
+πc_c⁄åﬁ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+382 i‡(!(
+πc_c⁄åﬁ
+ & 
+RTC_DM_BINARY
+Ë|| 
+RTC_ALWAYS_BCD
+) {
+
+384 
+m⁄
+ = (m⁄ <12Ë? 
+	`bö2bcd
+(mon) : 0xff;
+
+385 
+mday
+ = (mday >1 && mday <31Ë? 
+	`bö2bcd
+(mday) : 0xff;
+
+386 
+hrs
+ = (hr†< 24Ë? 
+	`bö2bcd
+(hrs) : 0xff;
+
+387 
+mö
+ = (mö < 60Ë? 
+	`bö2bcd
+(min) : 0xff;
+
+388 
+£c
+ = (£¯< 60Ë? 
+	`bö2bcd
+(sec) : 0xff;
+
+391 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+394 
+	`cmos_úq_dißbÀ
+(
+cmos
+, 
+RTC_AIE
+);
+
+397 
+	`CMOS_WRITE
+(
+hrs
+, 
+RTC_HOURS_ALARM
+);
+
+398 
+	`CMOS_WRITE
+(
+mö
+, 
+RTC_MINUTES_ALARM
+);
+
+399 
+	`CMOS_WRITE
+(
+£c
+, 
+RTC_SECONDS_ALARM
+);
+
+402 i‡(
+cmos
+->
+day_Ærm
+) {
+
+403 
+	`CMOS_WRITE
+(
+mday
+, 
+cmos
+->
+day_Ærm
+);
+
+404 i‡(
+cmos
+->
+m⁄_Ærm
+)
+
+405 
+	`CMOS_WRITE
+(
+m⁄
+, 
+cmos
+->
+m⁄_Ærm
+);
+
+411 
+	`h≥t_£t_Æ¨m_time
+(
+t
+->
+time
+.
+tm_hour
+,Å->time.
+tm_mö
+,Å->time.
+tm_£c
+);
+
+413 i‡(
+t
+->
+íabÀd
+)
+
+414 
+	`cmos_úq_íabÀ
+(
+cmos
+, 
+RTC_AIE
+);
+
+416 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+419 
+	}
+}
+
+421 
+	$cmos_Æ¨m_úq_íabÀ
+(
+devi˚
+ *
+dev
+, 
+íabÀd
+)
+
+423 
+cmos_πc
+ *
+cmos
+ = 
+	`dev_gë_drvd©a
+(
+dev
+);
+
+424 
+Êags
+;
+
+426 i‡(!
+	`is_vÆid_úq
+(
+cmos
+->
+úq
+))
+
+427  -
+EINVAL
+;
+
+429 
+	`•ö_lock_úqßve
+(&
+πc_lock
+, 
+Êags
+);
+
+431 i‡(
+íabÀd
+)
+
+432 
+	`cmos_úq_íabÀ
+(
+cmos
+, 
+RTC_AIE
+);
+
+434 
+	`cmos_úq_dißbÀ
+(
+cmos
+, 
+RTC_AIE
+);
+
+436 
+	`•ö_u∆ock_úqª°‹e
+(&
+πc_lock
+, 
+Êags
+);
+
+438 
+	}
+}
+
+440 #i‡
+deföed
+(
+CONFIG_RTC_INTF_PROC
+Ë|| deföed(
+CONFIG_RTC_INTF_PROC_MODULE
+)
+
+442 
+	$cmos_¥ocfs
+(
+devi˚
+ *
+dev
+, 
+£q_fûe
+ *
+£q
+)
+
+444 
+cmos_πc
+ *
+cmos
+ = 
+	`dev_gë_drvd©a
+(
+dev
+);
+
+445 
+πc_c⁄åﬁ
+, 
+vÆid
+;
+
+447 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+448 
+πc_c⁄åﬁ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+449 
+vÆid
+ = 
+	`CMOS_READ
+(
+RTC_VALID
+);
+
+450 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+455  
+	`£q_¥ötf
+(
+£q
+,
+
+464 (
+πc_c⁄åﬁ
+ & 
+RTC_PIE
+) ? "yes" : "no",
+
+465 (
+πc_c⁄åﬁ
+ & 
+RTC_UIE
+) ? "yes" : "no",
+
+466 
+	`is_h≥t_íabÀd
+() ? "yes" : "no",
+
+468 (
+πc_c⁄åﬁ
+ & 
+RTC_DM_BINARY
+) ? "no" : "yes",
+
+469 (
+πc_c⁄åﬁ
+ & 
+RTC_DST_EN
+) ? "yes" : "no",
+
+470 
+cmos
+->
+πc
+->
+úq_‰eq
+,
+
+471 (
+vÆid
+ & 
+RTC_VRT
+) ? "okay" : "dead");
+
+472 
+	}
+}
+
+475 
+	#cmos_¥ocfs
+ 
+NULL
+
+
+	)
+
+478 c⁄° 
+πc_˛ass_›s
+ 
+	gcmos_πc_›s
+ = {
+
+479 .
+ªad_time
+ = 
+cmos_ªad_time
+,
+
+480 .
+	g£t_time
+ = 
+cmos_£t_time
+,
+
+481 .
+	gªad_Æ¨m
+ = 
+cmos_ªad_Æ¨m
+,
+
+482 .
+	g£t_Æ¨m
+ = 
+cmos_£t_Æ¨m
+,
+
+483 .
+	g¥oc
+ = 
+cmos_¥ocfs
+,
+
+484 .
+	gÆ¨m_úq_íabÀ
+ = 
+cmos_Æ¨m_úq_íabÀ
+,
+
+495 
+	#NVRAM_OFFSET
+ (
+RTC_REG_D
+ + 1)
+
+	)
+
+497 
+ssize_t
+
+
+498 
+	$cmos_nvøm_ªad
+(
+fûe
+ *
+fûp
+, 
+kobje˘
+ *
+kobj
+,
+
+499 
+bö_©åibuã
+ *
+©å
+,
+
+500 *
+buf
+, 
+loff_t
+ 
+off
+, 
+size_t
+ 
+cou¡
+)
+
+502 
+ªtvÆ
+;
+
+504 i‡(
+	`u∆ikñy
+(
+off
+ >
+©å
+->
+size
+))
+
+506 i‡(
+	`u∆ikñy
+(
+off
+ < 0))
+
+507  -
+EINVAL
+;
+
+508 i‡((
+off
+ + 
+cou¡
+Ë> 
+©å
+->
+size
+)
+
+509 
+cou¡
+ = 
+©å
+->
+size
+ - 
+off
+;
+
+511 
+off
+ +
+NVRAM_OFFSET
+;
+
+512 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+513 
+ªtvÆ
+ = 0; 
+cou¡
+; cou¡--, 
+off
+++,Ñetval++) {
+
+514 i‡(
+off
+ < 128)
+
+515 *
+buf
+++ = 
+	`CMOS_READ
+(
+off
+);
+
+516 i‡(
+ˇn_b™k2
+)
+
+517 *
+buf
+++ = 
+	`cmos_ªad_b™k2
+(
+off
+);
+
+521 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+523  
+ªtvÆ
+;
+
+524 
+	}
+}
+
+526 
+ssize_t
+
+
+527 
+	$cmos_nvøm_wrôe
+(
+fûe
+ *
+fûp
+, 
+kobje˘
+ *
+kobj
+,
+
+528 
+bö_©åibuã
+ *
+©å
+,
+
+529 *
+buf
+, 
+loff_t
+ 
+off
+, 
+size_t
+ 
+cou¡
+)
+
+531 
+cmos_πc
+ *
+cmos
+;
+
+532 
+ªtvÆ
+;
+
+534 
+cmos
+ = 
+	`dev_gë_drvd©a
+(
+	`c⁄èöî_of
+(
+kobj
+, 
+devi˚
+, kobj));
+
+535 i‡(
+	`u∆ikñy
+(
+off
+ >
+©å
+->
+size
+))
+
+536  -
+EFBIG
+;
+
+537 i‡(
+	`u∆ikñy
+(
+off
+ < 0))
+
+538  -
+EINVAL
+;
+
+539 i‡((
+off
+ + 
+cou¡
+Ë> 
+©å
+->
+size
+)
+
+540 
+cou¡
+ = 
+©å
+->
+size
+ - 
+off
+;
+
+547 
+off
+ +
+NVRAM_OFFSET
+;
+
+548 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+549 
+ªtvÆ
+ = 0; 
+cou¡
+; cou¡--, 
+off
+++,Ñetval++) {
+
+551 i‡(
+off
+ =
+cmos
+->
+day_Ærm
+
+
+552 || 
+off
+ =
+cmos
+->
+m⁄_Ærm
+
+
+553 || 
+off
+ =
+cmos
+->
+˚¡ury
+)
+
+554 
+buf
+++;
+
+555 i‡(
+off
+ < 128)
+
+556 
+	`CMOS_WRITE
+(*
+buf
+++, 
+off
+);
+
+557 i‡(
+ˇn_b™k2
+)
+
+558 
+	`cmos_wrôe_b™k2
+(*
+buf
+++, 
+off
+);
+
+562 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+564  
+ªtvÆ
+;
+
+565 
+	}
+}
+
+567 
+bö_©åibuã
+ 
+	gnvøm
+ = {
+
+568 .
+©å
+ = {
+
+569 .
+«me
+ = "nvram",
+
+570 .
+	gmode
+ = 
+S_IRUGO
+ | 
+S_IWUSR
+,
+
+573 .
+	gªad
+ = 
+cmos_nvøm_ªad
+,
+
+574 .
+	gwrôe
+ = 
+cmos_nvøm_wrôe
+,
+
+580 
+cmos_πc
+ 
+	gcmos_πc
+;
+
+582 
+úqªtu∫_t
+ 
+	$cmos_öãºu±
+(
+úq
+, *
+p
+)
+
+584 
+u8
+ 
+úq°©
+;
+
+585 
+u8
+ 
+πc_c⁄åﬁ
+;
+
+587 
+	`•ö_lock
+(&
+πc_lock
+);
+
+596 
+úq°©
+ = 
+	`CMOS_READ
+(
+RTC_INTR_FLAGS
+);
+
+597 
+πc_c⁄åﬁ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+598 i‡(
+	`is_h≥t_íabÀd
+())
+
+599 
+úq°©
+ = ()
+úq
+ & 0xF0;
+
+600 
+úq°©
+ &(
+πc_c⁄åﬁ
+ & 
+RTC_IRQMASK
+Ë| 
+RTC_IRQF
+;
+
+606 i‡(
+úq°©
+ & 
+RTC_AIE
+) {
+
+607 
+πc_c⁄åﬁ
+ &~
+RTC_AIE
+;
+
+608 
+	`CMOS_WRITE
+(
+πc_c⁄åﬁ
+, 
+RTC_CONTROL
+);
+
+609 
+	`h≥t_mask_πc_úq_bô
+(
+RTC_AIE
+);
+
+611 
+	`CMOS_READ
+(
+RTC_INTR_FLAGS
+);
+
+613 
+	`•ö_u∆ock
+(&
+πc_lock
+);
+
+615 i‡(
+	`is_öå
+(
+úq°©
+)) {
+
+616 
+	`πc_upd©e_úq
+(
+p
+, 1, 
+úq°©
+);
+
+617  
+IRQ_HANDLED
+;
+
+619  
+IRQ_NONE
+;
+
+620 
+	}
+}
+
+622 #ifdef 
+CONFIG_PNP
+
+
+623 
+	#INITSECTION
+
+
+	)
+
+626 
+	#INITSECTION
+ 
+__öô
+
+
+	)
+
+629 
+INITSECTION
+
+
+630 
+	$cmos_do_¥obe
+(
+devi˚
+ *
+dev
+, 
+ªsour˚
+ *
+p‹ts
+, 
+πc_úq
+)
+
+632 
+cmos_πc_bﬂrd_öfo
+ *
+öfo
+ = 
+dev
+->
+∂©f‹m_d©a
+;
+
+633 
+ªtvÆ
+ = 0;
+
+634 
+πc_c⁄åﬁ
+;
+
+635 
+addªss_•a˚
+;
+
+638 i‡(
+cmos_πc
+.
+dev
+)
+
+639  -
+EBUSY
+;
+
+641 i‡(!
+p‹ts
+)
+
+642  -
+ENODEV
+;
+
+649 
+p‹ts
+ = 
+	`ªque°_ªgi⁄
+’‹ts->
+°¨t
+,
+
+650 
+	`ªsour˚_size
+(
+p‹ts
+),
+
+651 
+drivî_«me
+);
+
+652 i‡(!
+p‹ts
+) {
+
+653 
+	`dev_dbg
+(
+dev
+, "i/oÑegistersálready in use\n");
+
+654  -
+EBUSY
+;
+
+657 
+cmos_πc
+.
+úq
+ = 
+πc_úq
+;
+
+658 
+cmos_πc
+.
+iomem
+ = 
+p‹ts
+;
+
+665 #if 
+	`deföed
+(
+CONFIG_ATARI
+)
+
+666 
+addªss_•a˚
+ = 64;
+
+667 #ñi‡
+	`deföed
+(
+__i386__
+Ë|| deföed(
+__x86_64__
+Ë|| deföed(
+__¨m__
+) \
+
+668 || 
+	`deföed
+(
+__•¨c__
+Ë|| deföed(
+__mùs__
+) \
+
+669 || 
+	`deföed
+(
+__powîpc__
+)
+
+670 
+addªss_•a˚
+ = 128;
+
+672 #w¨nög 
+Assumög
+ 128 
+byãs
+ 
+of
+ 
+RTC
++
+NVRAM
+ 
+addªss
+ 
+•a˚
+, 
+nŸ
+ 64 bytes.
+
+673 
+addªss_•a˚
+ = 128;
+
+675 i‡(
+ˇn_b™k2
+ && 
+p‹ts
+->
+íd
+ > (p‹ts->
+°¨t
+ + 1))
+
+676 
+addªss_•a˚
+ = 256;
+
+687 i‡(
+öfo
+) {
+
+688 i‡(
+öfo
+->
+πc_day_Æ¨m
+ && info->rtc_day_alarm < 128)
+
+689 
+cmos_πc
+.
+day_Ærm
+ = 
+öfo
+->
+πc_day_Æ¨m
+;
+
+690 i‡(
+öfo
+->
+πc_m⁄_Æ¨m
+ && info->rtc_mon_alarm < 128)
+
+691 
+cmos_πc
+.
+m⁄_Ærm
+ = 
+öfo
+->
+πc_m⁄_Æ¨m
+;
+
+692 i‡(
+öfo
+->
+πc_˚¡ury
+ && info->rtc_century < 128)
+
+693 
+cmos_πc
+.
+˚¡ury
+ = 
+öfo
+->
+πc_˚¡ury
+;
+
+695 i‡(
+öfo
+->
+wake_⁄
+ && info->
+wake_off
+) {
+
+696 
+cmos_πc
+.
+wake_⁄
+ = 
+öfo
+->wake_on;
+
+697 
+cmos_πc
+.
+wake_off
+ = 
+öfo
+->wake_off;
+
+701 
+cmos_πc
+.
+dev
+ = dev;
+
+702 
+	`dev_£t_drvd©a
+(
+dev
+, &
+cmos_πc
+);
+
+704 
+cmos_πc
+.
+πc
+ = 
+	`πc_devi˚_ªgi°î
+(
+drivî_«me
+, 
+dev
+,
+
+705 &
+cmos_πc_›s
+, 
+THIS_MODULE
+);
+
+706 i‡(
+	`IS_ERR
+(
+cmos_πc
+.
+πc
+)) {
+
+707 
+ªtvÆ
+ = 
+	`PTR_ERR
+(
+cmos_πc
+.
+πc
+);
+
+708 
+˛ónup0
+;
+
+711 
+	`ª«me_ªgi⁄
+(
+p‹ts
+, 
+	`dev_«me
+(&
+cmos_πc
+.
+πc
+->
+dev
+));
+
+713 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+721 
+cmos_πc
+.
+πc
+->
+úq_‰eq
+ = 1024;
+
+722 
+	`h≥t_£t_≥riodic_‰eq
+(
+cmos_πc
+.
+πc
+->
+úq_‰eq
+);
+
+723 
+	`CMOS_WRITE
+(
+RTC_REF_CLCK_32KHZ
+ | 0x06, 
+RTC_FREQ_SELECT
+);
+
+726 
+	`cmos_úq_dißbÀ
+(&
+cmos_πc
+, 
+RTC_PIE
+ | 
+RTC_AIE
+ | 
+RTC_UIE
+);
+
+728 
+πc_c⁄åﬁ
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+730 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+735 i‡(
+	`is_vÆid_úq
+(
+πc_úq
+Ë&& !(
+πc_c⁄åﬁ
+ & 
+RTC_24H
+)) {
+
+736 
+	`dev_w¨n
+(
+dev
+, "only 24-hr supported\n");
+
+737 
+ªtvÆ
+ = -
+ENXIO
+;
+
+738 
+˛ónup1
+;
+
+741 i‡(
+	`is_vÆid_úq
+(
+πc_úq
+)) {
+
+742 
+úq_h™dÀr_t
+ 
+πc_cmos_öt_h™dÀr
+;
+
+744 i‡(
+	`is_h≥t_íabÀd
+()) {
+
+745 
+îr
+;
+
+747 
+πc_cmos_öt_h™dÀr
+ = 
+h≥t_πc_öãºu±
+;
+
+748 
+îr
+ = 
+	`h≥t_ªgi°î_úq_h™dÀr
+(
+cmos_öãºu±
+);
+
+749 i‡(
+îr
+ != 0) {
+
+750 
+	`¥ötk
+(
+KERN_WARNING
+ "hpet_register_irq_handler "
+
+752 
+˛ónup1
+;
+
+755 
+πc_cmos_öt_h™dÀr
+ = 
+cmos_öãºu±
+;
+
+757 
+ªtvÆ
+ = 
+	`ªque°_úq
+(
+πc_úq
+, 
+πc_cmos_öt_h™dÀr
+,
+
+758 0, 
+	`dev_«me
+(&
+cmos_πc
+.
+πc
+->
+dev
+),
+
+759 
+cmos_πc
+.
+πc
+);
+
+760 i‡(
+ªtvÆ
+ < 0) {
+
+761 
+	`dev_dbg
+(
+dev
+, "IRQ %d i†Æªady i¿u£\n", 
+πc_úq
+);
+
+762 
+˛ónup1
+;
+
+765 
+	`h≥t_πc_timî_öô
+();
+
+768 
+nvøm
+.
+size
+ = 
+addªss_•a˚
+ - 
+NVRAM_OFFSET
+;
+
+769 
+ªtvÆ
+ = 
+	`sysfs_¸óã_bö_fûe
+(&
+dev
+->
+kobj
+, &
+nvøm
+);
+
+770 i‡(
+ªtvÆ
+ < 0) {
+
+771 
+	`dev_dbg
+(
+dev
+, "ˇn'à¸óãÇvøm fûe? %d\n", 
+ªtvÆ
+);
+
+772 
+˛ónup2
+;
+
+775 
+	`¥_öfo
+("%s: %s%s, %zd bytesÇvram%s\n",
+
+776 
+	`dev_«me
+(&
+cmos_πc
+.
+πc
+->
+dev
+),
+
+777 !
+	`is_vÆid_úq
+(
+πc_úq
+) ? "noálarms" :
+
+778 
+cmos_πc
+.
+m⁄_Ærm
+ ? "alarms upÅo one year" :
+
+779 
+cmos_πc
+.
+day_Ærm
+ ? "alarms upÅo one month" :
+
+781 
+cmos_πc
+.
+˚¡ury
+ ? ", y3k" : "",
+
+782 
+nvøm
+.
+size
+,
+
+783 
+	`is_h≥t_íabÀd
+() ? ", hpet irqs" : "");
+
+787 
+˛ónup2
+:
+
+788 i‡(
+	`is_vÆid_úq
+(
+πc_úq
+))
+
+789 
+	`‰ì_úq
+(
+πc_úq
+, 
+cmos_πc
+.
+πc
+);
+
+790 
+˛ónup1
+:
+
+791 
+cmos_πc
+.
+dev
+ = 
+NULL
+;
+
+792 
+	`πc_devi˚_uƒegi°î
+(
+cmos_πc
+.
+πc
+);
+
+793 
+˛ónup0
+:
+
+794 
+	`ªÀa£_ªgi⁄
+(
+p‹ts
+->
+°¨t
+, 
+	`ªsour˚_size
+(ports));
+
+795  
+ªtvÆ
+;
+
+796 
+	}
+}
+
+798 
+	$cmos_do_shutdown
+()
+
+800 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+801 
+	`cmos_úq_dißbÀ
+(&
+cmos_πc
+, 
+RTC_IRQMASK
+);
+
+802 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+803 
+	}
+}
+
+805 
+__exô
+ 
+	$cmos_do_ªmove
+(
+devi˚
+ *
+dev
+)
+
+807 
+cmos_πc
+ *
+cmos
+ = 
+	`dev_gë_drvd©a
+(
+dev
+);
+
+808 
+ªsour˚
+ *
+p‹ts
+;
+
+810 
+	`cmos_do_shutdown
+();
+
+812 
+	`sysfs_ªmove_bö_fûe
+(&
+dev
+->
+kobj
+, &
+nvøm
+);
+
+814 i‡(
+	`is_vÆid_úq
+(
+cmos
+->
+úq
+)) {
+
+815 
+	`‰ì_úq
+(
+cmos
+->
+úq
+, cmos->
+πc
+);
+
+816 
+	`h≥t_uƒegi°î_úq_h™dÀr
+(
+cmos_öãºu±
+);
+
+819 
+	`πc_devi˚_uƒegi°î
+(
+cmos
+->
+πc
+);
+
+820 
+cmos
+->
+πc
+ = 
+NULL
+;
+
+822 
+p‹ts
+ = 
+cmos
+->
+iomem
+;
+
+823 
+	`ªÀa£_ªgi⁄
+(
+p‹ts
+->
+°¨t
+, 
+	`ªsour˚_size
+(ports));
+
+824 
+cmos
+->
+iomem
+ = 
+NULL
+;
+
+826 
+cmos
+->
+dev
+ = 
+NULL
+;
+
+827 
+	`dev_£t_drvd©a
+(
+dev
+, 
+NULL
+);
+
+828 
+	}
+}
+
+830 #ifdef 
+CONFIG_PM
+
+
+832 
+	$cmos_su•íd
+(
+devi˚
+ *
+dev
+)
+
+834 
+cmos_πc
+ *
+cmos
+ = 
+	`dev_gë_drvd©a
+(
+dev
+);
+
+835 
+tmp
+;
+
+838 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+839 
+cmos
+->
+su•íd_˘æ
+ = 
+tmp
+ = 
+	`CMOS_READ
+(
+RTC_CONTROL
+);
+
+840 i‡(
+tmp
+ & (
+RTC_PIE
+|
+RTC_AIE
+|
+RTC_UIE
+)) {
+
+841 
+mask
+;
+
+843 i‡(
+	`devi˚_may_wakeup
+(
+dev
+))
+
+844 
+mask
+ = 
+RTC_IRQMASK
+ & ~
+RTC_AIE
+;
+
+846 
+mask
+ = 
+RTC_IRQMASK
+;
+
+847 
+tmp
+ &~
+mask
+;
+
+848 
+	`CMOS_WRITE
+(
+tmp
+, 
+RTC_CONTROL
+);
+
+851 
+	`h≥t_mask_πc_úq_bô
+(
+RTC_PIE
+|
+RTC_AIE
+|
+RTC_UIE
+);
+
+852 
+	`cmos_checköå
+(
+cmos
+, 
+tmp
+);
+
+854 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+856 i‡(
+tmp
+ & 
+RTC_AIE
+) {
+
+857 
+cmos
+->
+íabÀd_wake
+ = 1;
+
+858 i‡(
+cmos
+->
+wake_⁄
+)
+
+859 
+cmos
+->
+	`wake_⁄
+(
+dev
+);
+
+861 
+	`íabÀ_úq_wake
+(
+cmos
+->
+úq
+);
+
+864 
+	`¥_debug
+("%s: suspend%s, ctrl %02x\n",
+
+865 
+	`dev_«me
+(&
+cmos_πc
+.
+πc
+->
+dev
+),
+
+866 (
+tmp
+ & 
+RTC_AIE
+) ? ",álarm may wake" : "",
+
+867 
+tmp
+);
+
+870 
+	}
+}
+
+878 
+ölöe
+ 
+	$cmos_powîoff
+(
+devi˚
+ *
+dev
+)
+
+880  
+	`cmos_su•íd
+(
+dev
+);
+
+881 
+	}
+}
+
+883 
+	$cmos_ªsume
+(
+devi˚
+ *
+dev
+)
+
+885 
+cmos_πc
+ *
+cmos
+ = 
+	`dev_gë_drvd©a
+(
+dev
+);
+
+886 
+tmp
+ = 
+cmos
+->
+su•íd_˘æ
+;
+
+889 i‡(
+tmp
+ & 
+RTC_IRQMASK
+) {
+
+890 
+mask
+;
+
+892 i‡(
+cmos
+->
+íabÀd_wake
+) {
+
+893 i‡(
+cmos
+->
+wake_off
+)
+
+894 
+cmos
+->
+	`wake_off
+(
+dev
+);
+
+896 
+	`dißbÀ_úq_wake
+(
+cmos
+->
+úq
+);
+
+897 
+cmos
+->
+íabÀd_wake
+ = 0;
+
+900 
+	`•ö_lock_úq
+(&
+πc_lock
+);
+
+902 
+	`CMOS_WRITE
+(
+tmp
+, 
+RTC_CONTROL
+);
+
+903 
+	`h≥t_£t_πc_úq_bô
+(
+tmp
+ & 
+RTC_IRQMASK
+);
+
+905 
+mask
+ = 
+	`CMOS_READ
+(
+RTC_INTR_FLAGS
+);
+
+906 
+mask
+ &(
+tmp
+ & 
+RTC_IRQMASK
+Ë| 
+RTC_IRQF
+;
+
+907 i‡(!
+	`is_h≥t_íabÀd
+(Ë|| !
+	`is_öå
+(
+mask
+))
+
+913 
+	`πc_upd©e_úq
+(
+cmos
+->
+πc
+, 1, 
+mask
+);
+
+914 
+tmp
+ &~
+RTC_AIE
+;
+
+915 
+	`h≥t_mask_πc_úq_bô
+(
+RTC_AIE
+);
+
+916 } 
+mask
+ & 
+RTC_AIE
+);
+
+917 
+	`•ö_u∆ock_úq
+(&
+πc_lock
+);
+
+920 
+	`¥_debug
+("%s:Ñesume, ctrl %02x\n",
+
+921 
+	`dev_«me
+(&
+cmos_πc
+.
+πc
+->
+dev
+),
+
+922 
+tmp
+);
+
+925 
+	}
+}
+
+927 
+SIMPLE_DEV_PM_OPS
+(
+cmos_pm_›s
+, 
+cmos_su•íd
+, 
+cmos_ªsume
+);
+
+931 
+ölöe
+ 
+	$cmos_powîoff
+(
+devi˚
+ *
+dev
+)
+
+933  -
+ENOSYS
+;
+
+934 
+	}
+}
+
+948 #ifdef 
+CONFIG_ACPI
+
+
+950 
+	~<löux/a˝i.h
+>
+
+952 
+u32
+ 
+	$πc_h™dÀr
+(*
+c⁄ãxt
+)
+
+954 
+devi˚
+ *
+dev
+ = 
+c⁄ãxt
+;
+
+956 
+	`pm_wakeup_evít
+(
+dev
+, 0);
+
+957 
+	`a˝i_˛ór_evít
+(
+ACPI_EVENT_RTC
+);
+
+958 
+	`a˝i_dißbÀ_evít
+(
+ACPI_EVENT_RTC
+, 0);
+
+959  
+ACPI_INTERRUPT_HANDLED
+;
+
+960 
+	}
+}
+
+962 
+ölöe
+ 
+	$πc_wake_£tup
+(
+devi˚
+ *
+dev
+)
+
+964 
+	`a˝i_ö°Æl_fixed_evít_h™dÀr
+(
+ACPI_EVENT_RTC
+, 
+πc_h™dÀr
+, 
+dev
+);
+
+969 
+	`a˝i_˛ór_evít
+(
+ACPI_EVENT_RTC
+);
+
+970 
+	`a˝i_dißbÀ_evít
+(
+ACPI_EVENT_RTC
+, 0);
+
+971 
+	}
+}
+
+973 
+	$πc_wake_⁄
+(
+devi˚
+ *
+dev
+)
+
+975 
+	`a˝i_˛ór_evít
+(
+ACPI_EVENT_RTC
+);
+
+976 
+	`a˝i_íabÀ_evít
+(
+ACPI_EVENT_RTC
+, 0);
+
+977 
+	}
+}
+
+979 
+	$πc_wake_off
+(
+devi˚
+ *
+dev
+)
+
+981 
+	`a˝i_dißbÀ_evít
+(
+ACPI_EVENT_RTC
+, 0);
+
+982 
+	}
+}
+
+989 
+cmos_πc_bﬂrd_öfo
+ 
+	ga˝i_πc_öfo
+;
+
+991 
+	$cmos_wake_£tup
+(
+devi˚
+ *
+dev
+)
+
+993 i‡(
+a˝i_dißbÀd
+)
+
+996 
+	`πc_wake_£tup
+(
+dev
+);
+
+997 
+a˝i_πc_öfo
+.
+wake_⁄
+ = 
+πc_wake_⁄
+;
+
+998 
+a˝i_πc_öfo
+.
+wake_off
+ = 
+πc_wake_off
+;
+
+1001 i‡(
+a˝i_gbl_FADT
+.
+m⁄th_Æ¨m
+ && !a˝i_gbl_FADT.
+day_Æ¨m
+) {
+
+1002 
+	`dev_dbg
+(
+dev
+, "bogus FADT month_alarm (%d)\n",
+
+1003 
+a˝i_gbl_FADT
+.
+m⁄th_Æ¨m
+);
+
+1004 
+a˝i_gbl_FADT
+.
+m⁄th_Æ¨m
+ = 0;
+
+1007 
+a˝i_πc_öfo
+.
+πc_day_Æ¨m
+ = 
+a˝i_gbl_FADT
+.
+day_Æ¨m
+;
+
+1008 
+a˝i_πc_öfo
+.
+πc_m⁄_Æ¨m
+ = 
+a˝i_gbl_FADT
+.
+m⁄th_Æ¨m
+;
+
+1009 
+a˝i_πc_öfo
+.
+πc_˚¡ury
+ = 
+a˝i_gbl_FADT
+.
+˚¡ury
+;
+
+1012 i‡(
+a˝i_gbl_FADT
+.
+Êags
+ & 
+ACPI_FADT_S4_RTC_WAKE
+)
+
+1013 
+	`dev_öfo
+(
+dev
+, "RTC can wake from S4\n");
+
+1015 
+dev
+->
+∂©f‹m_d©a
+ = &
+a˝i_πc_öfo
+;
+
+1018 
+	`devi˚_öô_wakeup
+(
+dev
+, 1);
+
+1019 
+	}
+}
+
+1023 
+	$cmos_wake_£tup
+(
+devi˚
+ *
+dev
+)
+
+1025 
+	}
+}
+
+1029 #ifdef 
+CONFIG_PNP
+
+
+1031 
+	~<löux/≤p.h
+>
+
+1033 
+	$cmos_≤p_¥obe
+(
+≤p_dev
+ *
+≤p
+, c⁄° 
+≤p_devi˚_id
+ *
+id
+)
+
+1035 
+	`cmos_wake_£tup
+(&
+≤p
+->
+dev
+);
+
+1037 i‡(
+	`≤p_p‹t_°¨t
+(
+≤p
+,0Ë=0x70 && !
+	`≤p_úq_vÆid
+(pnp,0))
+
+1042  
+	`cmos_do_¥obe
+(&
+≤p
+->
+dev
+,
+
+1043 
+	`≤p_gë_ªsour˚
+(
+≤p
+, 
+IORESOURCE_IO
+, 0), 8);
+
+1045  
+	`cmos_do_¥obe
+(&
+≤p
+->
+dev
+,
+
+1046 
+	`≤p_gë_ªsour˚
+(
+≤p
+, 
+IORESOURCE_IO
+, 0),
+
+1047 
+	`≤p_úq
+(
+≤p
+, 0));
+
+1048 
+	}
+}
+
+1050 
+__exô
+ 
+	$cmos_≤p_ªmove
+(
+≤p_dev
+ *
+≤p
+)
+
+1052 
+	`cmos_do_ªmove
+(&
+≤p
+->
+dev
+);
+
+1053 
+	}
+}
+
+1055 #ifdef 
+CONFIG_PM
+
+
+1057 
+	$cmos_≤p_su•íd
+(
+≤p_dev
+ *
+≤p
+, 
+pm_mesßge_t
+ 
+mesg
+)
+
+1059  
+	`cmos_su•íd
+(&
+≤p
+->
+dev
+);
+
+1060 
+	}
+}
+
+1062 
+	$cmos_≤p_ªsume
+(
+≤p_dev
+ *
+≤p
+)
+
+1064  
+	`cmos_ªsume
+(&
+≤p
+->
+dev
+);
+
+1065 
+	}
+}
+
+1068 
+	#cmos_≤p_su•íd
+ 
+NULL
+
+
+	)
+
+1069 
+	#cmos_≤p_ªsume
+ 
+NULL
+
+
+	)
+
+1072 
+	$cmos_≤p_shutdown
+(
+≤p_dev
+ *
+≤p
+)
+
+1074 i‡(
+sy°em_°©e
+ =
+SYSTEM_POWER_OFF
+ && !
+	`cmos_powîoff
+(&
+≤p
+->
+dev
+))
+
+1077 
+	`cmos_do_shutdown
+();
+
+1078 
+	}
+}
+
+1080 c⁄° 
+≤p_devi˚_id
+ 
+	gπc_ids
+[] = {
+
+1081 { .
+id
+ = "PNP0b00", },
+
+1082 { .
+	gid
+ = "PNP0b01", },
+
+1083 { .
+	gid
+ = "PNP0b02", },
+
+1086 
+MODULE_DEVICE_TABLE
+(
+≤p
+, 
+πc_ids
+);
+
+1088 
+≤p_drivî
+ 
+	gcmos_≤p_drivî
+ = {
+
+1089 .
+«me
+ = (*Ë
+drivî_«me
+,
+
+1090 .
+	gid_èbÀ
+ = 
+πc_ids
+,
+
+1091 .
+	g¥obe
+ = 
+cmos_≤p_¥obe
+,
+
+1092 .
+	gªmove
+ = 
+__exô_p
+(
+cmos_≤p_ªmove
+),
+
+1093 .
+	gshutdown
+ = 
+cmos_≤p_shutdown
+,
+
+1096 .
+	gÊags
+ = 
+PNP_DRIVER_RES_DO_NOT_CHANGE
+,
+
+1097 .
+	gsu•íd
+ = 
+cmos_≤p_su•íd
+,
+
+1098 .
+	gªsume
+ = 
+cmos_≤p_ªsume
+,
+
+1103 #ifde‡
+CONFIG_OF
+
+
+1104 c⁄° 
+of_devi˚_id
+ 
+	gof_cmos_m©ch
+[] = {
+
+1106 .
+com∑tibÀ
+ = "motorola,mc146818",
+
+1110 
+MODULE_DEVICE_TABLE
+(
+of
+, 
+of_cmos_m©ch
+);
+
+1112 
+__öô
+ 
+	$cmos_of_öô
+(
+∂©f‹m_devi˚
+ *
+pdev
+)
+
+1114 
+devi˚_node
+ *
+node
+ = 
+pdev
+->
+dev
+.
+of_node
+;
+
+1115 
+πc_time
+ 
+time
+;
+
+1116 
+ªt
+;
+
+1117 c⁄° 
+__be32
+ *
+vÆ
+;
+
+1119 i‡(!
+node
+)
+
+1122 
+vÆ
+ = 
+	`of_gë_¥›îty
+(
+node
+, "˘æ-ªg", 
+NULL
+);
+
+1123 i‡(
+vÆ
+)
+
+1124 
+	`CMOS_WRITE
+(
+	`be32_to_˝up
+(
+vÆ
+), 
+RTC_CONTROL
+);
+
+1126 
+vÆ
+ = 
+	`of_gë_¥›îty
+(
+node
+, "‰eq-ªg", 
+NULL
+);
+
+1127 i‡(
+vÆ
+)
+
+1128 
+	`CMOS_WRITE
+(
+	`be32_to_˝up
+(
+vÆ
+), 
+RTC_FREQ_SELECT
+);
+
+1130 
+	`gë_πc_time
+(&
+time
+);
+
+1131 
+ªt
+ = 
+	`πc_vÆid_tm
+(&
+time
+);
+
+1132 i‡(
+ªt
+) {
+
+1133 
+πc_time
+ 
+def_time
+ = {
+
+1134 .
+tm_yór
+ = 1,
+
+1135 .
+tm_mday
+ = 1,
+
+1137 
+	`£t_πc_time
+(&
+def_time
+);
+
+1139 
+	}
+}
+
+1141 
+ölöe
+ 
+	$cmos_of_öô
+(
+∂©f‹m_devi˚
+ *
+pdev
+Ë{
+	}
+}
+
+1142 
+	#of_cmos_m©ch
+ 
+NULL
+
+
+	)
+
+1150 
+__öô
+ 
+	$cmos_∂©f‹m_¥obe
+(
+∂©f‹m_devi˚
+ *
+pdev
+)
+
+1152 
+	`cmos_of_öô
+(
+pdev
+);
+
+1153 
+	`cmos_wake_£tup
+(&
+pdev
+->
+dev
+);
+
+1154  
+	`cmos_do_¥obe
+(&
+pdev
+->
+dev
+,
+
+1155 
+	`∂©f‹m_gë_ªsour˚
+(
+pdev
+, 
+IORESOURCE_IO
+, 0),
+
+1156 
+	`∂©f‹m_gë_úq
+(
+pdev
+, 0));
+
+1157 
+	}
+}
+
+1159 
+__exô
+ 
+	$cmos_∂©f‹m_ªmove
+(
+∂©f‹m_devi˚
+ *
+pdev
+)
+
+1161 
+	`cmos_do_ªmove
+(&
+pdev
+->
+dev
+);
+
+1163 
+	}
+}
+
+1165 
+	$cmos_∂©f‹m_shutdown
+(
+∂©f‹m_devi˚
+ *
+pdev
+)
+
+1167 i‡(
+sy°em_°©e
+ =
+SYSTEM_POWER_OFF
+ && !
+	`cmos_powîoff
+(&
+pdev
+->
+dev
+))
+
+1170 
+	`cmos_do_shutdown
+();
+
+1171 
+	}
+}
+
+1174 
+MODULE_ALIAS
+("platform:rtc_cmos");
+
+1176 
+∂©f‹m_drivî
+ 
+	gcmos_∂©f‹m_drivî
+ = {
+
+1177 .
+ªmove
+ = 
+__exô_p
+(
+cmos_∂©f‹m_ªmove
+),
+
+1178 .
+	gshutdown
+ = 
+cmos_∂©f‹m_shutdown
+,
+
+1179 .
+	gdrivî
+ = {
+
+1180 .
+«me
+ = (*Ë
+drivî_«me
+,
+
+1181 #ifde‡
+CONFIG_PM
+
+
+1182 .
+	gpm
+ = &
+cmos_pm_›s
+,
+
+1184 .
+	gof_m©ch_èbÀ
+ = 
+of_cmos_m©ch
+,
+
+1188 #ifde‡
+CONFIG_PNP
+
+
+1189 
+boﬁ
+ 
+	g≤p_drivî_ªgi°îed
+;
+
+1191 
+boﬁ
+ 
+	g∂©f‹m_drivî_ªgi°îed
+;
+
+1193 
+__öô
+ 
+	$cmos_öô
+()
+
+1195 
+ªtvÆ
+ = 0;
+
+1197 #ifdef 
+CONFIG_PNP
+
+
+1198 
+ªtvÆ
+ = 
+	`≤p_ªgi°î_drivî
+(&
+cmos_≤p_drivî
+);
+
+1199 i‡(
+ªtvÆ
+ == 0)
+
+1200 
+≤p_drivî_ªgi°îed
+ = 
+åue
+;
+
+1203 i‡(!
+cmos_πc
+.
+dev
+) {
+
+1204 
+ªtvÆ
+ = 
+	`∂©f‹m_drivî_¥obe
+(&
+cmos_∂©f‹m_drivî
+,
+
+1205 
+cmos_∂©f‹m_¥obe
+);
+
+1207 i‡(
+ªtvÆ
+ == 0)
+
+1208 
+∂©f‹m_drivî_ªgi°îed
+ = 
+åue
+;
+
+1212 i‡(
+ªtvÆ
+ == 0)
+
+1215 #ifdef 
+CONFIG_PNP
+
+
+1216 i‡(
+≤p_drivî_ªgi°îed
+)
+
+1217 
+	`≤p_uƒegi°î_drivî
+(&
+cmos_≤p_drivî
+);
+
+1219  
+ªtvÆ
+;
+
+1220 
+	}
+}
+
+1221 
+moduÀ_öô
+(
+cmos_öô
+);
+
+1223 
+__exô
+ 
+	$cmos_exô
+()
+
+1225 #ifdef 
+CONFIG_PNP
+
+
+1226 i‡(
+≤p_drivî_ªgi°îed
+)
+
+1227 
+	`≤p_uƒegi°î_drivî
+(&
+cmos_≤p_drivî
+);
+
+1229 i‡(
+∂©f‹m_drivî_ªgi°îed
+)
+
+1230 
+	`∂©f‹m_drivî_uƒegi°î
+(&
+cmos_∂©f‹m_drivî
+);
+
+1231 
+	}
+}
+
+1232 
+moduÀ_exô
+(
+cmos_exô
+);
+
+1235 
+MODULE_AUTHOR
+("David Brownell");
+
+1236 
+MODULE_DESCRIPTION
+("Driver for PC-style 'CMOS' RTCs");
+
+1237 
+MODULE_LICENSE
+("GPL");
+
+	@/usr/include/linux/fcntl.h
+
+1 #i‚de‡
+_LINUX_FCNTL_H
+
+
+2 
+	#_LINUX_FCNTL_H
+
+
+	)
+
+4 
+	~<asm/f˙é.h
+>
+
+6 
+	#F_SETLEASE
+ (
+F_LINUX_SPECIFIC_BASE
+ + 0)
+
+	)
+
+7 
+	#F_GETLEASE
+ (
+F_LINUX_SPECIFIC_BASE
+ + 1)
+
+	)
+
+13 
+	#F_CANCELLK
+ (
+F_LINUX_SPECIFIC_BASE
+ + 5)
+
+	)
+
+16 
+	#F_DUPFD_CLOEXEC
+ (
+F_LINUX_SPECIFIC_BASE
+ + 6)
+
+	)
+
+22 
+	#F_NOTIFY
+ (
+F_LINUX_SPECIFIC_BASE
++2)
+
+	)
+
+27 
+	#F_SETPIPE_SZ
+ (
+F_LINUX_SPECIFIC_BASE
+ + 7)
+
+	)
+
+28 
+	#F_GETPIPE_SZ
+ (
+F_LINUX_SPECIFIC_BASE
+ + 8)
+
+	)
+
+33 
+	#DN_ACCESS
+ 0x00000001
+
+	)
+
+34 
+	#DN_MODIFY
+ 0x00000002
+
+	)
+
+35 
+	#DN_CREATE
+ 0x00000004
+
+	)
+
+36 
+	#DN_DELETE
+ 0x00000008
+
+	)
+
+37 
+	#DN_RENAME
+ 0x00000010
+
+	)
+
+38 
+	#DN_ATTRIB
+ 0x00000020
+
+	)
+
+39 
+	#DN_MULTISHOT
+ 0x80000000
+
+	)
+
+41 
+	#AT_FDCWD
+ -100
+
+	)
+
+44 
+	#AT_SYMLINK_NOFOLLOW
+ 0x100
+
+	)
+
+45 
+	#AT_REMOVEDIR
+ 0x200
+
+	)
+
+47 
+	#AT_SYMLINK_FOLLOW
+ 0x400
+
+	)
+
+48 
+	#AT_NO_AUTOMOUNT
+ 0x800
+
+	)
+
+49 
+	#AT_EMPTY_PATH
+ 0x1000
+
+	)
+
+	@/usr/include/linux/kernel.h
+
+1 #i‚de‡
+_LINUX_KERNEL_H
+
+
+2 
+	#_LINUX_KERNEL_H
+
+
+	)
+
+4 
+	~<löux/sysöfo.h
+>
+
+9 
+	#__ALIGN_KERNEL
+(
+x
+, 
+a
+Ë
+	`__ALIGN_KERNEL_MASK
+(x, (
+	`ty≥of
+(x))◊Ë- 1)
+
+	)
+
+10 
+	#__ALIGN_KERNEL_MASK
+(
+x
+, 
+mask
+Ë(((xË+ (mask)Ë& ~(mask))
+
+	)
+
+	@/usr/include/linux/poll.h
+
+1 
+	~<asm/pﬁl.h
+>
+
+	@/usr/include/linux/rtc.h
+
+11 #i‚de‡
+_LINUX_RTC_H_
+
+
+12 
+	#_LINUX_RTC_H_
+
+
+	)
+
+20 
+	sπc_time
+ {
+
+21 
+	mtm_£c
+;
+
+22 
+	mtm_mö
+;
+
+23 
+	mtm_hour
+;
+
+24 
+	mtm_mday
+;
+
+25 
+	mtm_m⁄
+;
+
+26 
+	mtm_yór
+;
+
+27 
+	mtm_wday
+;
+
+28 
+	mtm_yday
+;
+
+29 
+	mtm_isd°
+;
+
+36 
+	sπc_wkÆrm
+ {
+
+37 
+	míabÀd
+;
+
+38 
+	m≥ndög
+;
+
+39 
+πc_time
+ 
+	mtime
+;
+
+55 
+	sπc_∂l_öfo
+ {
+
+56 
+	m∂l_˘æ
+;
+
+57 
+	m∂l_vÆue
+;
+
+58 
+	m∂l_max
+;
+
+59 
+	m∂l_mö
+;
+
+60 
+	m∂l_posmu…
+;
+
+61 
+	m∂l_√gmu…
+;
+
+62 
+	m∂l_˛ock
+;
+
+70 
+	#RTC_AIE_ON
+ 
+	`_IO
+('p', 0x01Ë
+
+	)
+
+71 
+	#RTC_AIE_OFF
+ 
+	`_IO
+('p', 0x02Ë
+
+	)
+
+72 
+	#RTC_UIE_ON
+ 
+	`_IO
+('p', 0x03Ë
+
+	)
+
+73 
+	#RTC_UIE_OFF
+ 
+	`_IO
+('p', 0x04Ë
+
+	)
+
+74 
+	#RTC_PIE_ON
+ 
+	`_IO
+('p', 0x05Ë
+
+	)
+
+75 
+	#RTC_PIE_OFF
+ 
+	`_IO
+('p', 0x06Ë
+
+	)
+
+76 
+	#RTC_WIE_ON
+ 
+	`_IO
+('p', 0x0fË
+
+	)
+
+77 
+	#RTC_WIE_OFF
+ 
+	`_IO
+('p', 0x10Ë
+
+	)
+
+79 
+	#RTC_ALM_SET
+ 
+	`_IOW
+('p', 0x07, 
+πc_time
+Ë
+
+	)
+
+80 
+	#RTC_ALM_READ
+ 
+	`_IOR
+('p', 0x08, 
+πc_time
+Ë
+
+	)
+
+81 
+	#RTC_RD_TIME
+ 
+	`_IOR
+('p', 0x09, 
+πc_time
+Ë
+
+	)
+
+82 
+	#RTC_SET_TIME
+ 
+	`_IOW
+('p', 0x0a, 
+πc_time
+Ë
+
+	)
+
+83 
+	#RTC_IRQP_READ
+ 
+	`_IOR
+('p', 0x0b, Ë
+
+	)
+
+84 
+	#RTC_IRQP_SET
+ 
+	`_IOW
+('p', 0x0c, Ë
+
+	)
+
+85 
+	#RTC_EPOCH_READ
+ 
+	`_IOR
+('p', 0x0d, Ë
+
+	)
+
+86 
+	#RTC_EPOCH_SET
+ 
+	`_IOW
+('p', 0x0e, Ë
+
+	)
+
+88 
+	#RTC_WKALM_SET
+ 
+	`_IOW
+('p', 0x0f, 
+πc_wkÆrm
+)
+
+	)
+
+89 
+	#RTC_WKALM_RD
+ 
+	`_IOR
+('p', 0x10, 
+πc_wkÆrm
+)
+
+	)
+
+91 
+	#RTC_PLL_GET
+ 
+	`_IOR
+('p', 0x11, 
+πc_∂l_öfo
+Ë
+
+	)
+
+92 
+	#RTC_PLL_SET
+ 
+	`_IOW
+('p', 0x12, 
+πc_∂l_öfo
+Ë
+
+	)
+
+94 
+	#RTC_VL_READ
+ 
+	`_IOR
+('p', 0x13, Ë
+
+	)
+
+95 
+	#RTC_VL_CLR
+ 
+	`_IO
+('p', 0x14Ë
+
+	)
+
+98 
+	#RTC_IRQF
+ 0x80
+
+	)
+
+99 
+	#RTC_PF
+ 0x40
+
+	)
+
+100 
+	#RTC_AF
+ 0x20
+
+	)
+
+101 
+	#RTC_UF
+ 0x10
+
+	)
+
+104 
+	#RTC_MAX_FREQ
+ 8192
+
+	)
+
+	@/usr/include/linux/sched.h
+
+1 #i‚de‡
+_LINUX_SCHED_H
+
+
+2 
+	#_LINUX_SCHED_H
+
+
+	)
+
+7 
+	#CSIGNAL
+ 0x000000f‡
+
+	)
+
+8 
+	#CLONE_VM
+ 0x00000100
+
+	)
+
+9 
+	#CLONE_FS
+ 0x00000200
+
+	)
+
+10 
+	#CLONE_FILES
+ 0x00000400
+
+	)
+
+11 
+	#CLONE_SIGHAND
+ 0x00000800
+
+	)
+
+12 
+	#CLONE_PTRACE
+ 0x00002000
+
+	)
+
+13 
+	#CLONE_VFORK
+ 0x00004000
+
+	)
+
+14 
+	#CLONE_PARENT
+ 0x00008000
+
+	)
+
+15 
+	#CLONE_THREAD
+ 0x00010000
+
+	)
+
+16 
+	#CLONE_NEWNS
+ 0x00020000
+
+	)
+
+17 
+	#CLONE_SYSVSEM
+ 0x00040000
+
+	)
+
+18 
+	#CLONE_SETTLS
+ 0x00080000
+
+	)
+
+19 
+	#CLONE_PARENT_SETTID
+ 0x00100000
+
+	)
+
+20 
+	#CLONE_CHILD_CLEARTID
+ 0x00200000
+
+	)
+
+21 
+	#CLONE_DETACHED
+ 0x00400000
+
+	)
+
+22 
+	#CLONE_UNTRACED
+ 0x00800000
+
+	)
+
+23 
+	#CLONE_CHILD_SETTID
+ 0x01000000
+
+	)
+
+26 
+	#CLONE_NEWUTS
+ 0x04000000
+
+	)
+
+27 
+	#CLONE_NEWIPC
+ 0x08000000
+
+	)
+
+28 
+	#CLONE_NEWUSER
+ 0x10000000
+
+	)
+
+29 
+	#CLONE_NEWPID
+ 0x20000000
+
+	)
+
+30 
+	#CLONE_NEWNET
+ 0x40000000
+
+	)
+
+31 
+	#CLONE_IO
+ 0x80000000
+
+	)
+
+36 
+	#SCHED_NORMAL
+ 0
+
+	)
+
+37 
+	#SCHED_FIFO
+ 1
+
+	)
+
+38 
+	#SCHED_RR
+ 2
+
+	)
+
+39 
+	#SCHED_BATCH
+ 3
+
+	)
+
+41 
+	#SCHED_IDLE
+ 5
+
+	)
+
+43 
+	#SCHED_RESET_ON_FORK
+ 0x40000000
+
+	)
+
+	@/usr/include/linux/sysctl.h
+
+22 #i‚de‡
+_LINUX_SYSCTL_H
+
+
+23 
+	#_LINUX_SYSCTL_H
+
+
+	)
+
+25 
+	~<löux/kî√l.h
+>
+
+26 
+	~<löux/ty≥s.h
+>
+
+29 
+	gcom∂ëi⁄
+;
+
+31 
+	#CTL_MAXNAME
+ 10
+
+	)
+
+36 
+	s__sys˘l_¨gs
+ {
+
+37 *
+	m«me
+;
+
+38 
+	m∆í
+;
+
+39 *
+	mﬁdvÆ
+;
+
+40 
+size_t
+ *
+	mﬁdÀ≈
+;
+
+41 *
+	m√wvÆ
+;
+
+42 
+size_t
+ 
+	m√wÀn
+;
+
+43 
+	m__unu£d
+[4];
+
+52 
+	mCTL_KERN
+=1,
+
+53 
+	mCTL_VM
+=2,
+
+54 
+	mCTL_NET
+=3,
+
+55 
+	mCTL_PROC
+=4,
+
+56 
+	mCTL_FS
+=5,
+
+57 
+	mCTL_DEBUG
+=6,
+
+58 
+	mCTL_DEV
+=7,
+
+59 
+	mCTL_BUS
+=8,
+
+60 
+	mCTL_ABI
+=9,
+
+61 
+	mCTL_CPU
+=10,
+
+62 
+	mCTL_ARLAN
+=254,
+
+63 
+	mCTL_S390DBF
+=5677,
+
+64 
+	mCTL_SUNRPC
+=7249,
+
+65 
+	mCTL_PM
+=9899,
+
+66 
+	mCTL_FRV
+=9898,
+
+72 
+	mCTL_BUS_ISA
+=1
+
+78 
+	mINOTIFY_MAX_USER_INSTANCES
+=1,
+
+79 
+	mINOTIFY_MAX_USER_WATCHES
+=2,
+
+80 
+	mINOTIFY_MAX_QUEUED_EVENTS
+=3
+
+86 
+	mKERN_OSTYPE
+=1,
+
+87 
+	mKERN_OSRELEASE
+=2,
+
+88 
+	mKERN_OSREV
+=3,
+
+89 
+	mKERN_VERSION
+=4,
+
+90 
+	mKERN_SECUREMASK
+=5,
+
+91 
+	mKERN_PROF
+=6,
+
+92 
+	mKERN_NODENAME
+=7,
+
+93 
+	mKERN_DOMAINNAME
+=8,
+
+95 
+	mKERN_PANIC
+=15,
+
+96 
+	mKERN_REALROOTDEV
+=16,
+
+98 
+	mKERN_SPARC_REBOOT
+=21,
+
+99 
+	mKERN_CTLALTDEL
+=22,
+
+100 
+	mKERN_PRINTK
+=23,
+
+101 
+	mKERN_NAMETRANS
+=24,
+
+102 
+	mKERN_PPC_HTABRECLAIM
+=25,
+
+103 
+	mKERN_PPC_ZEROPAGED
+=26,
+
+104 
+	mKERN_PPC_POWERSAVE_NAP
+=27,
+
+105 
+	mKERN_MODPROBE
+=28,
+
+106 
+	mKERN_SG_BIG_BUFF
+=29,
+
+107 
+	mKERN_ACCT
+=30,
+
+108 
+	mKERN_PPC_L2CR
+=31,
+
+110 
+	mKERN_RTSIGNR
+=32,
+
+111 
+	mKERN_RTSIGMAX
+=33,
+
+113 
+	mKERN_SHMMAX
+=34,
+
+114 
+	mKERN_MSGMAX
+=35,
+
+115 
+	mKERN_MSGMNB
+=36,
+
+116 
+	mKERN_MSGPOOL
+=37,
+
+117 
+	mKERN_SYSRQ
+=38,
+
+118 
+	mKERN_MAX_THREADS
+=39,
+
+119 
+	mKERN_RANDOM
+=40,
+
+120 
+	mKERN_SHMALL
+=41,
+
+121 
+	mKERN_MSGMNI
+=42,
+
+122 
+	mKERN_SEM
+=43,
+
+123 
+	mKERN_SPARC_STOP_A
+=44,
+
+124 
+	mKERN_SHMMNI
+=45,
+
+125 
+	mKERN_OVERFLOWUID
+=46,
+
+126 
+	mKERN_OVERFLOWGID
+=47,
+
+127 
+	mKERN_SHMPATH
+=48,
+
+128 
+	mKERN_HOTPLUG
+=49,
+
+129 
+	mKERN_IEEE_EMULATION_WARNINGS
+=50,
+
+130 
+	mKERN_S390_USER_DEBUG_LOGGING
+=51,
+
+131 
+	mKERN_CORE_USES_PID
+=52,
+
+132 
+	mKERN_TAINTED
+=53,
+
+133 
+	mKERN_CADPID
+=54,
+
+134 
+	mKERN_PIDMAX
+=55,
+
+135 
+	mKERN_CORE_PATTERN
+=56,
+
+136 
+	mKERN_PANIC_ON_OOPS
+=57,
+
+137 
+	mKERN_HPPA_PWRSW
+=58,
+
+138 
+	mKERN_HPPA_UNALIGNED
+=59,
+
+139 
+	mKERN_PRINTK_RATELIMIT
+=60,
+
+140 
+	mKERN_PRINTK_RATELIMIT_BURST
+=61,
+
+141 
+	mKERN_PTY
+=62,
+
+142 
+	mKERN_NGROUPS_MAX
+=63,
+
+143 
+	mKERN_SPARC_SCONS_PWROFF
+=64,
+
+144 
+	mKERN_HZ_TIMER
+=65,
+
+145 
+	mKERN_UNKNOWN_NMI_PANIC
+=66,
+
+146 
+	mKERN_BOOTLOADER_TYPE
+=67,
+
+147 
+	mKERN_RANDOMIZE
+=68,
+
+148 
+	mKERN_SETUID_DUMPABLE
+=69,
+
+149 
+	mKERN_SPIN_RETRY
+=70,
+
+150 
+	mKERN_ACPI_VIDEO_FLAGS
+=71,
+
+151 
+	mKERN_IA64_UNALIGNED
+=72,
+
+152 
+	mKERN_COMPAT_LOG
+=73,
+
+153 
+	mKERN_MAX_LOCK_DEPTH
+=74,
+
+154 
+	mKERN_NMI_WATCHDOG
+=75,
+
+155 
+	mKERN_PANIC_ON_NMI
+=76,
+
+163 
+	mVM_UNUSED1
+=1,
+
+164 
+	mVM_UNUSED2
+=2,
+
+165 
+	mVM_UNUSED3
+=3,
+
+166 
+	mVM_UNUSED4
+=4,
+
+167 
+	mVM_OVERCOMMIT_MEMORY
+=5,
+
+168 
+	mVM_UNUSED5
+=6,
+
+169 
+	mVM_UNUSED7
+=7,
+
+170 
+	mVM_UNUSED8
+=8,
+
+171 
+	mVM_UNUSED9
+=9,
+
+172 
+	mVM_PAGE_CLUSTER
+=10,
+
+173 
+	mVM_DIRTY_BACKGROUND
+=11,
+
+174 
+	mVM_DIRTY_RATIO
+=12,
+
+175 
+	mVM_DIRTY_WB_CS
+=13,
+
+176 
+	mVM_DIRTY_EXPIRE_CS
+=14,
+
+177 
+	mVM_NR_PDFLUSH_THREADS
+=15,
+
+178 
+	mVM_OVERCOMMIT_RATIO
+=16,
+
+179 
+	mVM_PAGEBUF
+=17,
+
+180 
+	mVM_HUGETLB_PAGES
+=18,
+
+181 
+	mVM_SWAPPINESS
+=19,
+
+182 
+	mVM_LOWMEM_RESERVE_RATIO
+=20,
+
+183 
+	mVM_MIN_FREE_KBYTES
+=21,
+
+184 
+	mVM_MAX_MAP_COUNT
+=22,
+
+185 
+	mVM_LAPTOP_MODE
+=23,
+
+186 
+	mVM_BLOCK_DUMP
+=24,
+
+187 
+	mVM_HUGETLB_GROUP
+=25,
+
+188 
+	mVM_VFS_CACHE_PRESSURE
+=26,
+
+189 
+	mVM_LEGACY_VA_LAYOUT
+=27,
+
+190 
+	mVM_SWAP_TOKEN_TIMEOUT
+=28,
+
+191 
+	mVM_DROP_PAGECACHE
+=29,
+
+192 
+	mVM_PERCPU_PAGELIST_FRACTION
+=30,
+
+193 
+	mVM_ZONE_RECLAIM_MODE
+=31,
+
+194 
+	mVM_MIN_UNMAPPED
+=32,
+
+195 
+	mVM_PANIC_ON_OOM
+=33,
+
+196 
+	mVM_VDSO_ENABLED
+=34,
+
+197 
+	mVM_MIN_SLAB
+=35,
+
+204 
+	mNET_CORE
+=1,
+
+205 
+	mNET_ETHER
+=2,
+
+206 
+	mNET_802
+=3,
+
+207 
+	mNET_UNIX
+=4,
+
+208 
+	mNET_IPV4
+=5,
+
+209 
+	mNET_IPX
+=6,
+
+210 
+	mNET_ATALK
+=7,
+
+211 
+	mNET_NETROM
+=8,
+
+212 
+	mNET_AX25
+=9,
+
+213 
+	mNET_BRIDGE
+=10,
+
+214 
+	mNET_ROSE
+=11,
+
+215 
+	mNET_IPV6
+=12,
+
+216 
+	mNET_X25
+=13,
+
+217 
+	mNET_TR
+=14,
+
+218 
+	mNET_DECNET
+=15,
+
+219 
+	mNET_ECONET
+=16,
+
+220 
+	mNET_SCTP
+=17,
+
+221 
+	mNET_LLC
+=18,
+
+222 
+	mNET_NETFILTER
+=19,
+
+223 
+	mNET_DCCP
+=20,
+
+224 
+	mNET_IRDA
+=412,
+
+230 
+	mRANDOM_POOLSIZE
+=1,
+
+231 
+	mRANDOM_ENTROPY_COUNT
+=2,
+
+232 
+	mRANDOM_READ_THRESH
+=3,
+
+233 
+	mRANDOM_WRITE_THRESH
+=4,
+
+234 
+	mRANDOM_BOOT_ID
+=5,
+
+235 
+	mRANDOM_UUID
+=6
+
+241 
+	mPTY_MAX
+=1,
+
+242 
+	mPTY_NR
+=2
+
+248 
+	mBUS_ISA_MEM_BASE
+=1,
+
+249 
+	mBUS_ISA_PORT_BASE
+=2,
+
+250 
+	mBUS_ISA_PORT_SHIFT
+=3
+
+256 
+	mNET_CORE_WMEM_MAX
+=1,
+
+257 
+	mNET_CORE_RMEM_MAX
+=2,
+
+258 
+	mNET_CORE_WMEM_DEFAULT
+=3,
+
+259 
+	mNET_CORE_RMEM_DEFAULT
+=4,
+
+261 
+	mNET_CORE_MAX_BACKLOG
+=6,
+
+262 
+	mNET_CORE_FASTROUTE
+=7,
+
+263 
+	mNET_CORE_MSG_COST
+=8,
+
+264 
+	mNET_CORE_MSG_BURST
+=9,
+
+265 
+	mNET_CORE_OPTMEM_MAX
+=10,
+
+266 
+	mNET_CORE_HOT_LIST_LENGTH
+=11,
+
+267 
+	mNET_CORE_DIVERT_VERSION
+=12,
+
+268 
+	mNET_CORE_NO_CONG_THRESH
+=13,
+
+269 
+	mNET_CORE_NO_CONG
+=14,
+
+270 
+	mNET_CORE_LO_CONG
+=15,
+
+271 
+	mNET_CORE_MOD_CONG
+=16,
+
+272 
+	mNET_CORE_DEV_WEIGHT
+=17,
+
+273 
+	mNET_CORE_SOMAXCONN
+=18,
+
+274 
+	mNET_CORE_BUDGET
+=19,
+
+275 
+	mNET_CORE_AEVENT_ETIME
+=20,
+
+276 
+	mNET_CORE_AEVENT_RSEQTH
+=21,
+
+277 
+	mNET_CORE_WARNINGS
+=22,
+
+288 
+	mNET_UNIX_DESTROY_DELAY
+=1,
+
+289 
+	mNET_UNIX_DELETE_DELAY
+=2,
+
+290 
+	mNET_UNIX_MAX_DGRAM_QLEN
+=3,
+
+296 
+	mNET_NF_CONNTRACK_MAX
+=1,
+
+297 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_SYN_SENT
+=2,
+
+298 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_SYN_RECV
+=3,
+
+299 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_ESTABLISHED
+=4,
+
+300 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_FIN_WAIT
+=5,
+
+301 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_CLOSE_WAIT
+=6,
+
+302 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_LAST_ACK
+=7,
+
+303 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_TIME_WAIT
+=8,
+
+304 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_CLOSE
+=9,
+
+305 
+	mNET_NF_CONNTRACK_UDP_TIMEOUT
+=10,
+
+306 
+	mNET_NF_CONNTRACK_UDP_TIMEOUT_STREAM
+=11,
+
+307 
+	mNET_NF_CONNTRACK_ICMP_TIMEOUT
+=12,
+
+308 
+	mNET_NF_CONNTRACK_GENERIC_TIMEOUT
+=13,
+
+309 
+	mNET_NF_CONNTRACK_BUCKETS
+=14,
+
+310 
+	mNET_NF_CONNTRACK_LOG_INVALID
+=15,
+
+311 
+	mNET_NF_CONNTRACK_TCP_TIMEOUT_MAX_RETRANS
+=16,
+
+312 
+	mNET_NF_CONNTRACK_TCP_LOOSE
+=17,
+
+313 
+	mNET_NF_CONNTRACK_TCP_BE_LIBERAL
+=18,
+
+314 
+	mNET_NF_CONNTRACK_TCP_MAX_RETRANS
+=19,
+
+315 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_CLOSED
+=20,
+
+316 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_COOKIE_WAIT
+=21,
+
+317 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_COOKIE_ECHOED
+=22,
+
+318 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_ESTABLISHED
+=23,
+
+319 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_SHUTDOWN_SENT
+=24,
+
+320 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_SHUTDOWN_RECD
+=25,
+
+321 
+	mNET_NF_CONNTRACK_SCTP_TIMEOUT_SHUTDOWN_ACK_SENT
+=26,
+
+322 
+	mNET_NF_CONNTRACK_COUNT
+=27,
+
+323 
+	mNET_NF_CONNTRACK_ICMPV6_TIMEOUT
+=28,
+
+324 
+	mNET_NF_CONNTRACK_FRAG6_TIMEOUT
+=29,
+
+325 
+	mNET_NF_CONNTRACK_FRAG6_LOW_THRESH
+=30,
+
+326 
+	mNET_NF_CONNTRACK_FRAG6_HIGH_THRESH
+=31,
+
+327 
+	mNET_NF_CONNTRACK_CHECKSUM
+=32,
+
+334 
+	mNET_IPV4_FORWARD
+=8,
+
+335 
+	mNET_IPV4_DYNADDR
+=9,
+
+337 
+	mNET_IPV4_CONF
+=16,
+
+338 
+	mNET_IPV4_NEIGH
+=17,
+
+339 
+	mNET_IPV4_ROUTE
+=18,
+
+340 
+	mNET_IPV4_FIB_HASH
+=19,
+
+341 
+	mNET_IPV4_NETFILTER
+=20,
+
+343 
+	mNET_IPV4_TCP_TIMESTAMPS
+=33,
+
+344 
+	mNET_IPV4_TCP_WINDOW_SCALING
+=34,
+
+345 
+	mNET_IPV4_TCP_SACK
+=35,
+
+346 
+	mNET_IPV4_TCP_RETRANS_COLLAPSE
+=36,
+
+347 
+	mNET_IPV4_DEFAULT_TTL
+=37,
+
+348 
+	mNET_IPV4_AUTOCONFIG
+=38,
+
+349 
+	mNET_IPV4_NO_PMTU_DISC
+=39,
+
+350 
+	mNET_IPV4_TCP_SYN_RETRIES
+=40,
+
+351 
+	mNET_IPV4_IPFRAG_HIGH_THRESH
+=41,
+
+352 
+	mNET_IPV4_IPFRAG_LOW_THRESH
+=42,
+
+353 
+	mNET_IPV4_IPFRAG_TIME
+=43,
+
+354 
+	mNET_IPV4_TCP_MAX_KA_PROBES
+=44,
+
+355 
+	mNET_IPV4_TCP_KEEPALIVE_TIME
+=45,
+
+356 
+	mNET_IPV4_TCP_KEEPALIVE_PROBES
+=46,
+
+357 
+	mNET_IPV4_TCP_RETRIES1
+=47,
+
+358 
+	mNET_IPV4_TCP_RETRIES2
+=48,
+
+359 
+	mNET_IPV4_TCP_FIN_TIMEOUT
+=49,
+
+360 
+	mNET_IPV4_IP_MASQ_DEBUG
+=50,
+
+361 
+	mNET_TCP_SYNCOOKIES
+=51,
+
+362 
+	mNET_TCP_STDURG
+=52,
+
+363 
+	mNET_TCP_RFC1337
+=53,
+
+364 
+	mNET_TCP_SYN_TAILDROP
+=54,
+
+365 
+	mNET_TCP_MAX_SYN_BACKLOG
+=55,
+
+366 
+	mNET_IPV4_LOCAL_PORT_RANGE
+=56,
+
+367 
+	mNET_IPV4_ICMP_ECHO_IGNORE_ALL
+=57,
+
+368 
+	mNET_IPV4_ICMP_ECHO_IGNORE_BROADCASTS
+=58,
+
+369 
+	mNET_IPV4_ICMP_SOURCEQUENCH_RATE
+=59,
+
+370 
+	mNET_IPV4_ICMP_DESTUNREACH_RATE
+=60,
+
+371 
+	mNET_IPV4_ICMP_TIMEEXCEED_RATE
+=61,
+
+372 
+	mNET_IPV4_ICMP_PARAMPROB_RATE
+=62,
+
+373 
+	mNET_IPV4_ICMP_ECHOREPLY_RATE
+=63,
+
+374 
+	mNET_IPV4_ICMP_IGNORE_BOGUS_ERROR_RESPONSES
+=64,
+
+375 
+	mNET_IPV4_IGMP_MAX_MEMBERSHIPS
+=65,
+
+376 
+	mNET_TCP_TW_RECYCLE
+=66,
+
+377 
+	mNET_IPV4_ALWAYS_DEFRAG
+=67,
+
+378 
+	mNET_IPV4_TCP_KEEPALIVE_INTVL
+=68,
+
+379 
+	mNET_IPV4_INET_PEER_THRESHOLD
+=69,
+
+380 
+	mNET_IPV4_INET_PEER_MINTTL
+=70,
+
+381 
+	mNET_IPV4_INET_PEER_MAXTTL
+=71,
+
+382 
+	mNET_IPV4_INET_PEER_GC_MINTIME
+=72,
+
+383 
+	mNET_IPV4_INET_PEER_GC_MAXTIME
+=73,
+
+384 
+	mNET_TCP_ORPHAN_RETRIES
+=74,
+
+385 
+	mNET_TCP_ABORT_ON_OVERFLOW
+=75,
+
+386 
+	mNET_TCP_SYNACK_RETRIES
+=76,
+
+387 
+	mNET_TCP_MAX_ORPHANS
+=77,
+
+388 
+	mNET_TCP_MAX_TW_BUCKETS
+=78,
+
+389 
+	mNET_TCP_FACK
+=79,
+
+390 
+	mNET_TCP_REORDERING
+=80,
+
+391 
+	mNET_TCP_ECN
+=81,
+
+392 
+	mNET_TCP_DSACK
+=82,
+
+393 
+	mNET_TCP_MEM
+=83,
+
+394 
+	mNET_TCP_WMEM
+=84,
+
+395 
+	mNET_TCP_RMEM
+=85,
+
+396 
+	mNET_TCP_APP_WIN
+=86,
+
+397 
+	mNET_TCP_ADV_WIN_SCALE
+=87,
+
+398 
+	mNET_IPV4_NONLOCAL_BIND
+=88,
+
+399 
+	mNET_IPV4_ICMP_RATELIMIT
+=89,
+
+400 
+	mNET_IPV4_ICMP_RATEMASK
+=90,
+
+401 
+	mNET_TCP_TW_REUSE
+=91,
+
+402 
+	mNET_TCP_FRTO
+=92,
+
+403 
+	mNET_TCP_LOW_LATENCY
+=93,
+
+404 
+	mNET_IPV4_IPFRAG_SECRET_INTERVAL
+=94,
+
+405 
+	mNET_IPV4_IGMP_MAX_MSF
+=96,
+
+406 
+	mNET_TCP_NO_METRICS_SAVE
+=97,
+
+407 
+	mNET_TCP_DEFAULT_WIN_SCALE
+=105,
+
+408 
+	mNET_TCP_MODERATE_RCVBUF
+=106,
+
+409 
+	mNET_TCP_TSO_WIN_DIVISOR
+=107,
+
+410 
+	mNET_TCP_BIC_BETA
+=108,
+
+411 
+	mNET_IPV4_ICMP_ERRORS_USE_INBOUND_IFADDR
+=109,
+
+412 
+	mNET_TCP_CONG_CONTROL
+=110,
+
+413 
+	mNET_TCP_ABC
+=111,
+
+414 
+	mNET_IPV4_IPFRAG_MAX_DIST
+=112,
+
+415 
+	mNET_TCP_MTU_PROBING
+=113,
+
+416 
+	mNET_TCP_BASE_MSS
+=114,
+
+417 
+	mNET_IPV4_TCP_WORKAROUND_SIGNED_WINDOWS
+=115,
+
+418 
+	mNET_TCP_DMA_COPYBREAK
+=116,
+
+419 
+	mNET_TCP_SLOW_START_AFTER_IDLE
+=117,
+
+420 
+	mNET_CIPSOV4_CACHE_ENABLE
+=118,
+
+421 
+	mNET_CIPSOV4_CACHE_BUCKET_SIZE
+=119,
+
+422 
+	mNET_CIPSOV4_RBM_OPTFMT
+=120,
+
+423 
+	mNET_CIPSOV4_RBM_STRICTVALID
+=121,
+
+424 
+	mNET_TCP_AVAIL_CONG_CONTROL
+=122,
+
+425 
+	mNET_TCP_ALLOWED_CONG_CONTROL
+=123,
+
+426 
+	mNET_TCP_MAX_SSTHRESH
+=124,
+
+427 
+	mNET_TCP_FRTO_RESPONSE
+=125,
+
+431 
+	mNET_IPV4_ROUTE_FLUSH
+=1,
+
+432 
+	mNET_IPV4_ROUTE_MIN_DELAY
+=2,
+
+433 
+	mNET_IPV4_ROUTE_MAX_DELAY
+=3,
+
+434 
+	mNET_IPV4_ROUTE_GC_THRESH
+=4,
+
+435 
+	mNET_IPV4_ROUTE_MAX_SIZE
+=5,
+
+436 
+	mNET_IPV4_ROUTE_GC_MIN_INTERVAL
+=6,
+
+437 
+	mNET_IPV4_ROUTE_GC_TIMEOUT
+=7,
+
+438 
+	mNET_IPV4_ROUTE_GC_INTERVAL
+=8,
+
+439 
+	mNET_IPV4_ROUTE_REDIRECT_LOAD
+=9,
+
+440 
+	mNET_IPV4_ROUTE_REDIRECT_NUMBER
+=10,
+
+441 
+	mNET_IPV4_ROUTE_REDIRECT_SILENCE
+=11,
+
+442 
+	mNET_IPV4_ROUTE_ERROR_COST
+=12,
+
+443 
+	mNET_IPV4_ROUTE_ERROR_BURST
+=13,
+
+444 
+	mNET_IPV4_ROUTE_GC_ELASTICITY
+=14,
+
+445 
+	mNET_IPV4_ROUTE_MTU_EXPIRES
+=15,
+
+446 
+	mNET_IPV4_ROUTE_MIN_PMTU
+=16,
+
+447 
+	mNET_IPV4_ROUTE_MIN_ADVMSS
+=17,
+
+448 
+	mNET_IPV4_ROUTE_SECRET_INTERVAL
+=18,
+
+449 
+	mNET_IPV4_ROUTE_GC_MIN_INTERVAL_MS
+=19,
+
+454 
+	mNET_PROTO_CONF_ALL
+=-2,
+
+455 
+	mNET_PROTO_CONF_DEFAULT
+=-3
+
+462 
+	mNET_IPV4_CONF_FORWARDING
+=1,
+
+463 
+	mNET_IPV4_CONF_MC_FORWARDING
+=2,
+
+464 
+	mNET_IPV4_CONF_PROXY_ARP
+=3,
+
+465 
+	mNET_IPV4_CONF_ACCEPT_REDIRECTS
+=4,
+
+466 
+	mNET_IPV4_CONF_SECURE_REDIRECTS
+=5,
+
+467 
+	mNET_IPV4_CONF_SEND_REDIRECTS
+=6,
+
+468 
+	mNET_IPV4_CONF_SHARED_MEDIA
+=7,
+
+469 
+	mNET_IPV4_CONF_RP_FILTER
+=8,
+
+470 
+	mNET_IPV4_CONF_ACCEPT_SOURCE_ROUTE
+=9,
+
+471 
+	mNET_IPV4_CONF_BOOTP_RELAY
+=10,
+
+472 
+	mNET_IPV4_CONF_LOG_MARTIANS
+=11,
+
+473 
+	mNET_IPV4_CONF_TAG
+=12,
+
+474 
+	mNET_IPV4_CONF_ARPFILTER
+=13,
+
+475 
+	mNET_IPV4_CONF_MEDIUM_ID
+=14,
+
+476 
+	mNET_IPV4_CONF_NOXFRM
+=15,
+
+477 
+	mNET_IPV4_CONF_NOPOLICY
+=16,
+
+478 
+	mNET_IPV4_CONF_FORCE_IGMP_VERSION
+=17,
+
+479 
+	mNET_IPV4_CONF_ARP_ANNOUNCE
+=18,
+
+480 
+	mNET_IPV4_CONF_ARP_IGNORE
+=19,
+
+481 
+	mNET_IPV4_CONF_PROMOTE_SECONDARIES
+=20,
+
+482 
+	mNET_IPV4_CONF_ARP_ACCEPT
+=21,
+
+483 
+	mNET_IPV4_CONF_ARP_NOTIFY
+=22,
+
+489 
+	mNET_IPV4_NF_CONNTRACK_MAX
+=1,
+
+490 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_SYN_SENT
+=2,
+
+491 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_SYN_RECV
+=3,
+
+492 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_ESTABLISHED
+=4,
+
+493 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_FIN_WAIT
+=5,
+
+494 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_CLOSE_WAIT
+=6,
+
+495 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_LAST_ACK
+=7,
+
+496 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_TIME_WAIT
+=8,
+
+497 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_CLOSE
+=9,
+
+498 
+	mNET_IPV4_NF_CONNTRACK_UDP_TIMEOUT
+=10,
+
+499 
+	mNET_IPV4_NF_CONNTRACK_UDP_TIMEOUT_STREAM
+=11,
+
+500 
+	mNET_IPV4_NF_CONNTRACK_ICMP_TIMEOUT
+=12,
+
+501 
+	mNET_IPV4_NF_CONNTRACK_GENERIC_TIMEOUT
+=13,
+
+502 
+	mNET_IPV4_NF_CONNTRACK_BUCKETS
+=14,
+
+503 
+	mNET_IPV4_NF_CONNTRACK_LOG_INVALID
+=15,
+
+504 
+	mNET_IPV4_NF_CONNTRACK_TCP_TIMEOUT_MAX_RETRANS
+=16,
+
+505 
+	mNET_IPV4_NF_CONNTRACK_TCP_LOOSE
+=17,
+
+506 
+	mNET_IPV4_NF_CONNTRACK_TCP_BE_LIBERAL
+=18,
+
+507 
+	mNET_IPV4_NF_CONNTRACK_TCP_MAX_RETRANS
+=19,
+
+508 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_CLOSED
+=20,
+
+509 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_COOKIE_WAIT
+=21,
+
+510 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_COOKIE_ECHOED
+=22,
+
+511 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_ESTABLISHED
+=23,
+
+512 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_SHUTDOWN_SENT
+=24,
+
+513 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_SHUTDOWN_RECD
+=25,
+
+514 
+	mNET_IPV4_NF_CONNTRACK_SCTP_TIMEOUT_SHUTDOWN_ACK_SENT
+=26,
+
+515 
+	mNET_IPV4_NF_CONNTRACK_COUNT
+=27,
+
+516 
+	mNET_IPV4_NF_CONNTRACK_CHECKSUM
+=28,
+
+521 
+	mNET_IPV6_CONF
+=16,
+
+522 
+	mNET_IPV6_NEIGH
+=17,
+
+523 
+	mNET_IPV6_ROUTE
+=18,
+
+524 
+	mNET_IPV6_ICMP
+=19,
+
+525 
+	mNET_IPV6_BINDV6ONLY
+=20,
+
+526 
+	mNET_IPV6_IP6FRAG_HIGH_THRESH
+=21,
+
+527 
+	mNET_IPV6_IP6FRAG_LOW_THRESH
+=22,
+
+528 
+	mNET_IPV6_IP6FRAG_TIME
+=23,
+
+529 
+	mNET_IPV6_IP6FRAG_SECRET_INTERVAL
+=24,
+
+530 
+	mNET_IPV6_MLD_MAX_MSF
+=25,
+
+534 
+	mNET_IPV6_ROUTE_FLUSH
+=1,
+
+535 
+	mNET_IPV6_ROUTE_GC_THRESH
+=2,
+
+536 
+	mNET_IPV6_ROUTE_MAX_SIZE
+=3,
+
+537 
+	mNET_IPV6_ROUTE_GC_MIN_INTERVAL
+=4,
+
+538 
+	mNET_IPV6_ROUTE_GC_TIMEOUT
+=5,
+
+539 
+	mNET_IPV6_ROUTE_GC_INTERVAL
+=6,
+
+540 
+	mNET_IPV6_ROUTE_GC_ELASTICITY
+=7,
+
+541 
+	mNET_IPV6_ROUTE_MTU_EXPIRES
+=8,
+
+542 
+	mNET_IPV6_ROUTE_MIN_ADVMSS
+=9,
+
+543 
+	mNET_IPV6_ROUTE_GC_MIN_INTERVAL_MS
+=10
+
+547 
+	mNET_IPV6_FORWARDING
+=1,
+
+548 
+	mNET_IPV6_HOP_LIMIT
+=2,
+
+549 
+	mNET_IPV6_MTU
+=3,
+
+550 
+	mNET_IPV6_ACCEPT_RA
+=4,
+
+551 
+	mNET_IPV6_ACCEPT_REDIRECTS
+=5,
+
+552 
+	mNET_IPV6_AUTOCONF
+=6,
+
+553 
+	mNET_IPV6_DAD_TRANSMITS
+=7,
+
+554 
+	mNET_IPV6_RTR_SOLICITS
+=8,
+
+555 
+	mNET_IPV6_RTR_SOLICIT_INTERVAL
+=9,
+
+556 
+	mNET_IPV6_RTR_SOLICIT_DELAY
+=10,
+
+557 
+	mNET_IPV6_USE_TEMPADDR
+=11,
+
+558 
+	mNET_IPV6_TEMP_VALID_LFT
+=12,
+
+559 
+	mNET_IPV6_TEMP_PREFERED_LFT
+=13,
+
+560 
+	mNET_IPV6_REGEN_MAX_RETRY
+=14,
+
+561 
+	mNET_IPV6_MAX_DESYNC_FACTOR
+=15,
+
+562 
+	mNET_IPV6_MAX_ADDRESSES
+=16,
+
+563 
+	mNET_IPV6_FORCE_MLD_VERSION
+=17,
+
+564 
+	mNET_IPV6_ACCEPT_RA_DEFRTR
+=18,
+
+565 
+	mNET_IPV6_ACCEPT_RA_PINFO
+=19,
+
+566 
+	mNET_IPV6_ACCEPT_RA_RTR_PREF
+=20,
+
+567 
+	mNET_IPV6_RTR_PROBE_INTERVAL
+=21,
+
+568 
+	mNET_IPV6_ACCEPT_RA_RT_INFO_MAX_PLEN
+=22,
+
+569 
+	mNET_IPV6_PROXY_NDP
+=23,
+
+570 
+	mNET_IPV6_ACCEPT_SOURCE_ROUTE
+=25,
+
+571 
+	m__NET_IPV6_MAX
+
+
+576 
+	mNET_IPV6_ICMP_RATELIMIT
+=1
+
+581 
+	mNET_NEIGH_MCAST_SOLICIT
+=1,
+
+582 
+	mNET_NEIGH_UCAST_SOLICIT
+=2,
+
+583 
+	mNET_NEIGH_APP_SOLICIT
+=3,
+
+584 
+	mNET_NEIGH_RETRANS_TIME
+=4,
+
+585 
+	mNET_NEIGH_REACHABLE_TIME
+=5,
+
+586 
+	mNET_NEIGH_DELAY_PROBE_TIME
+=6,
+
+587 
+	mNET_NEIGH_GC_STALE_TIME
+=7,
+
+588 
+	mNET_NEIGH_UNRES_QLEN
+=8,
+
+589 
+	mNET_NEIGH_PROXY_QLEN
+=9,
+
+590 
+	mNET_NEIGH_ANYCAST_DELAY
+=10,
+
+591 
+	mNET_NEIGH_PROXY_DELAY
+=11,
+
+592 
+	mNET_NEIGH_LOCKTIME
+=12,
+
+593 
+	mNET_NEIGH_GC_INTERVAL
+=13,
+
+594 
+	mNET_NEIGH_GC_THRESH1
+=14,
+
+595 
+	mNET_NEIGH_GC_THRESH2
+=15,
+
+596 
+	mNET_NEIGH_GC_THRESH3
+=16,
+
+597 
+	mNET_NEIGH_RETRANS_TIME_MS
+=17,
+
+598 
+	mNET_NEIGH_REACHABLE_TIME_MS
+=18,
+
+603 
+	mNET_DCCP_DEFAULT
+=1,
+
+608 
+	mNET_IPX_PPROP_BROADCASTING
+=1,
+
+609 
+	mNET_IPX_FORWARDING
+=2
+
+614 
+	mNET_LLC2
+=1,
+
+615 
+	mNET_LLC_STATION
+=2,
+
+620 
+	mNET_LLC2_TIMEOUT
+=1,
+
+625 
+	mNET_LLC_STATION_ACK_TIMEOUT
+=1,
+
+630 
+	mNET_LLC2_ACK_TIMEOUT
+=1,
+
+631 
+	mNET_LLC2_P_TIMEOUT
+=2,
+
+632 
+	mNET_LLC2_REJ_TIMEOUT
+=3,
+
+633 
+	mNET_LLC2_BUSY_TIMEOUT
+=4,
+
+638 
+	mNET_ATALK_AARP_EXPIRY_TIME
+=1,
+
+639 
+	mNET_ATALK_AARP_TICK_TIME
+=2,
+
+640 
+	mNET_ATALK_AARP_RETRANSMIT_LIMIT
+=3,
+
+641 
+	mNET_ATALK_AARP_RESOLVE_TIME
+=4
+
+647 
+	mNET_NETROM_DEFAULT_PATH_QUALITY
+=1,
+
+648 
+	mNET_NETROM_OBSOLESCENCE_COUNT_INITIALISER
+=2,
+
+649 
+	mNET_NETROM_NETWORK_TTL_INITIALISER
+=3,
+
+650 
+	mNET_NETROM_TRANSPORT_TIMEOUT
+=4,
+
+651 
+	mNET_NETROM_TRANSPORT_MAXIMUM_TRIES
+=5,
+
+652 
+	mNET_NETROM_TRANSPORT_ACKNOWLEDGE_DELAY
+=6,
+
+653 
+	mNET_NETROM_TRANSPORT_BUSY_DELAY
+=7,
+
+654 
+	mNET_NETROM_TRANSPORT_REQUESTED_WINDOW_SIZE
+=8,
+
+655 
+	mNET_NETROM_TRANSPORT_NO_ACTIVITY_TIMEOUT
+=9,
+
+656 
+	mNET_NETROM_ROUTING_CONTROL
+=10,
+
+657 
+	mNET_NETROM_LINK_FAILS_COUNT
+=11,
+
+658 
+	mNET_NETROM_RESET
+=12
+
+663 
+	mNET_AX25_IP_DEFAULT_MODE
+=1,
+
+664 
+	mNET_AX25_DEFAULT_MODE
+=2,
+
+665 
+	mNET_AX25_BACKOFF_TYPE
+=3,
+
+666 
+	mNET_AX25_CONNECT_MODE
+=4,
+
+667 
+	mNET_AX25_STANDARD_WINDOW
+=5,
+
+668 
+	mNET_AX25_EXTENDED_WINDOW
+=6,
+
+669 
+	mNET_AX25_T1_TIMEOUT
+=7,
+
+670 
+	mNET_AX25_T2_TIMEOUT
+=8,
+
+671 
+	mNET_AX25_T3_TIMEOUT
+=9,
+
+672 
+	mNET_AX25_IDLE_TIMEOUT
+=10,
+
+673 
+	mNET_AX25_N2
+=11,
+
+674 
+	mNET_AX25_PACLEN
+=12,
+
+675 
+	mNET_AX25_PROTOCOL
+=13,
+
+676 
+	mNET_AX25_DAMA_SLAVE_TIMEOUT
+=14
+
+681 
+	mNET_ROSE_RESTART_REQUEST_TIMEOUT
+=1,
+
+682 
+	mNET_ROSE_CALL_REQUEST_TIMEOUT
+=2,
+
+683 
+	mNET_ROSE_RESET_REQUEST_TIMEOUT
+=3,
+
+684 
+	mNET_ROSE_CLEAR_REQUEST_TIMEOUT
+=4,
+
+685 
+	mNET_ROSE_ACK_HOLD_BACK_TIMEOUT
+=5,
+
+686 
+	mNET_ROSE_ROUTING_CONTROL
+=6,
+
+687 
+	mNET_ROSE_LINK_FAIL_TIMEOUT
+=7,
+
+688 
+	mNET_ROSE_MAX_VCS
+=8,
+
+689 
+	mNET_ROSE_WINDOW_SIZE
+=9,
+
+690 
+	mNET_ROSE_NO_ACTIVITY_TIMEOUT
+=10
+
+695 
+	mNET_X25_RESTART_REQUEST_TIMEOUT
+=1,
+
+696 
+	mNET_X25_CALL_REQUEST_TIMEOUT
+=2,
+
+697 
+	mNET_X25_RESET_REQUEST_TIMEOUT
+=3,
+
+698 
+	mNET_X25_CLEAR_REQUEST_TIMEOUT
+=4,
+
+699 
+	mNET_X25_ACK_HOLD_BACK_TIMEOUT
+=5,
+
+700 
+	mNET_X25_FORWARD
+=6
+
+706 
+	mNET_TR_RIF_TIMEOUT
+=1
+
+711 
+	mNET_DECNET_NODE_TYPE
+ = 1,
+
+712 
+	mNET_DECNET_NODE_ADDRESS
+ = 2,
+
+713 
+	mNET_DECNET_NODE_NAME
+ = 3,
+
+714 
+	mNET_DECNET_DEFAULT_DEVICE
+ = 4,
+
+715 
+	mNET_DECNET_TIME_WAIT
+ = 5,
+
+716 
+	mNET_DECNET_DN_COUNT
+ = 6,
+
+717 
+	mNET_DECNET_DI_COUNT
+ = 7,
+
+718 
+	mNET_DECNET_DR_COUNT
+ = 8,
+
+719 
+	mNET_DECNET_DST_GC_INTERVAL
+ = 9,
+
+720 
+	mNET_DECNET_CONF
+ = 10,
+
+721 
+	mNET_DECNET_NO_FC_MAX_CWND
+ = 11,
+
+722 
+	mNET_DECNET_MEM
+ = 12,
+
+723 
+	mNET_DECNET_RMEM
+ = 13,
+
+724 
+	mNET_DECNET_WMEM
+ = 14,
+
+725 
+	mNET_DECNET_DEBUG_LEVEL
+ = 255
+
+730 
+	mNET_DECNET_CONF_LOOPBACK
+ = -2,
+
+731 
+	mNET_DECNET_CONF_DDCMP
+ = -3,
+
+732 
+	mNET_DECNET_CONF_PPP
+ = -4,
+
+733 
+	mNET_DECNET_CONF_X25
+ = -5,
+
+734 
+	mNET_DECNET_CONF_GRE
+ = -6,
+
+735 
+	mNET_DECNET_CONF_ETHER
+ = -7
+
+742 
+	mNET_DECNET_CONF_DEV_PRIORITY
+ = 1,
+
+743 
+	mNET_DECNET_CONF_DEV_T1
+ = 2,
+
+744 
+	mNET_DECNET_CONF_DEV_T2
+ = 3,
+
+745 
+	mNET_DECNET_CONF_DEV_T3
+ = 4,
+
+746 
+	mNET_DECNET_CONF_DEV_FORWARDING
+ = 5,
+
+747 
+	mNET_DECNET_CONF_DEV_BLKSIZE
+ = 6,
+
+748 
+	mNET_DECNET_CONF_DEV_STATE
+ = 7
+
+753 
+	mNET_SCTP_RTO_INITIAL
+ = 1,
+
+754 
+	mNET_SCTP_RTO_MIN
+ = 2,
+
+755 
+	mNET_SCTP_RTO_MAX
+ = 3,
+
+756 
+	mNET_SCTP_RTO_ALPHA
+ = 4,
+
+757 
+	mNET_SCTP_RTO_BETA
+ = 5,
+
+758 
+	mNET_SCTP_VALID_COOKIE_LIFE
+ = 6,
+
+759 
+	mNET_SCTP_ASSOCIATION_MAX_RETRANS
+ = 7,
+
+760 
+	mNET_SCTP_PATH_MAX_RETRANS
+ = 8,
+
+761 
+	mNET_SCTP_MAX_INIT_RETRANSMITS
+ = 9,
+
+762 
+	mNET_SCTP_HB_INTERVAL
+ = 10,
+
+763 
+	mNET_SCTP_PRESERVE_ENABLE
+ = 11,
+
+764 
+	mNET_SCTP_MAX_BURST
+ = 12,
+
+765 
+	mNET_SCTP_ADDIP_ENABLE
+ = 13,
+
+766 
+	mNET_SCTP_PRSCTP_ENABLE
+ = 14,
+
+767 
+	mNET_SCTP_SNDBUF_POLICY
+ = 15,
+
+768 
+	mNET_SCTP_SACK_TIMEOUT
+ = 16,
+
+769 
+	mNET_SCTP_RCVBUF_POLICY
+ = 17,
+
+774 
+	mNET_BRIDGE_NF_CALL_ARPTABLES
+ = 1,
+
+775 
+	mNET_BRIDGE_NF_CALL_IPTABLES
+ = 2,
+
+776 
+	mNET_BRIDGE_NF_CALL_IP6TABLES
+ = 3,
+
+777 
+	mNET_BRIDGE_NF_FILTER_VLAN_TAGGED
+ = 4,
+
+778 
+	mNET_BRIDGE_NF_FILTER_PPPOE_TAGGED
+ = 5,
+
+783 
+	mNET_IRDA_DISCOVERY
+=1,
+
+784 
+	mNET_IRDA_DEVNAME
+=2,
+
+785 
+	mNET_IRDA_DEBUG
+=3,
+
+786 
+	mNET_IRDA_FAST_POLL
+=4,
+
+787 
+	mNET_IRDA_DISCOVERY_SLOTS
+=5,
+
+788 
+	mNET_IRDA_DISCOVERY_TIMEOUT
+=6,
+
+789 
+	mNET_IRDA_SLOT_TIMEOUT
+=7,
+
+790 
+	mNET_IRDA_MAX_BAUD_RATE
+=8,
+
+791 
+	mNET_IRDA_MIN_TX_TURN_TIME
+=9,
+
+792 
+	mNET_IRDA_MAX_TX_DATA_SIZE
+=10,
+
+793 
+	mNET_IRDA_MAX_TX_WINDOW
+=11,
+
+794 
+	mNET_IRDA_MAX_NOREPLY_TIME
+=12,
+
+795 
+	mNET_IRDA_WARN_NOREPLY_TIME
+=13,
+
+796 
+	mNET_IRDA_LAP_KEEPALIVE_TIME
+=14,
+
+803 
+	mFS_NRINODE
+=1,
+
+804 
+	mFS_STATINODE
+=2,
+
+805 
+	mFS_MAXINODE
+=3,
+
+806 
+	mFS_NRDQUOT
+=4,
+
+807 
+	mFS_MAXDQUOT
+=5,
+
+808 
+	mFS_NRFILE
+=6,
+
+809 
+	mFS_MAXFILE
+=7,
+
+810 
+	mFS_DENTRY
+=8,
+
+811 
+	mFS_NRSUPER
+=9,
+
+812 
+	mFS_MAXSUPER
+=10,
+
+813 
+	mFS_OVERFLOWUID
+=11,
+
+814 
+	mFS_OVERFLOWGID
+=12,
+
+815 
+	mFS_LEASES
+=13,
+
+816 
+	mFS_DIR_NOTIFY
+=14,
+
+817 
+	mFS_LEASE_TIME
+=15,
+
+818 
+	mFS_DQSTATS
+=16,
+
+819 
+	mFS_XFS
+=17,
+
+820 
+	mFS_AIO_NR
+=18,
+
+821 
+	mFS_AIO_MAX_NR
+=19,
+
+822 
+	mFS_INOTIFY
+=20,
+
+823 
+	mFS_OCFS2
+=988,
+
+828 
+	mFS_DQ_LOOKUPS
+ = 1,
+
+829 
+	mFS_DQ_DROPS
+ = 2,
+
+830 
+	mFS_DQ_READS
+ = 3,
+
+831 
+	mFS_DQ_WRITES
+ = 4,
+
+832 
+	mFS_DQ_CACHE_HITS
+ = 5,
+
+833 
+	mFS_DQ_ALLOCATED
+ = 6,
+
+834 
+	mFS_DQ_FREE
+ = 7,
+
+835 
+	mFS_DQ_SYNCS
+ = 8,
+
+836 
+	mFS_DQ_WARNINGS
+ = 9,
+
+843 
+	mDEV_CDROM
+=1,
+
+844 
+	mDEV_HWMON
+=2,
+
+845 
+	mDEV_PARPORT
+=3,
+
+846 
+	mDEV_RAID
+=4,
+
+847 
+	mDEV_MAC_HID
+=5,
+
+848 
+	mDEV_SCSI
+=6,
+
+849 
+	mDEV_IPMI
+=7,
+
+854 
+	mDEV_CDROM_INFO
+=1,
+
+855 
+	mDEV_CDROM_AUTOCLOSE
+=2,
+
+856 
+	mDEV_CDROM_AUTOEJECT
+=3,
+
+857 
+	mDEV_CDROM_DEBUG
+=4,
+
+858 
+	mDEV_CDROM_LOCK
+=5,
+
+859 
+	mDEV_CDROM_CHECK_MEDIA
+=6
+
+864 
+	mDEV_PARPORT_DEFAULT
+=-3
+
+869 
+	mDEV_RAID_SPEED_LIMIT_MIN
+=1,
+
+870 
+	mDEV_RAID_SPEED_LIMIT_MAX
+=2
+
+875 
+	mDEV_PARPORT_DEFAULT_TIMESLICE
+=1,
+
+876 
+	mDEV_PARPORT_DEFAULT_SPINTIME
+=2
+
+881 
+	mDEV_PARPORT_SPINTIME
+=1,
+
+882 
+	mDEV_PARPORT_BASE_ADDR
+=2,
+
+883 
+	mDEV_PARPORT_IRQ
+=3,
+
+884 
+	mDEV_PARPORT_DMA
+=4,
+
+885 
+	mDEV_PARPORT_MODES
+=5,
+
+886 
+	mDEV_PARPORT_DEVICES
+=6,
+
+887 
+	mDEV_PARPORT_AUTOPROBE
+=16
+
+892 
+	mDEV_PARPORT_DEVICES_ACTIVE
+=-3,
+
+897 
+	mDEV_PARPORT_DEVICE_TIMESLICE
+=1,
+
+902 
+	mDEV_MAC_HID_KEYBOARD_SENDS_LINUX_KEYCODES
+=1,
+
+903 
+	mDEV_MAC_HID_KEYBOARD_LOCK_KEYCODES
+=2,
+
+904 
+	mDEV_MAC_HID_MOUSE_BUTTON_EMULATION
+=3,
+
+905 
+	mDEV_MAC_HID_MOUSE_BUTTON2_KEYCODE
+=4,
+
+906 
+	mDEV_MAC_HID_MOUSE_BUTTON3_KEYCODE
+=5,
+
+907 
+	mDEV_MAC_HID_ADB_MOUSE_SENDS_KEYCODES
+=6
+
+912 
+	mDEV_SCSI_LOGGING_LEVEL
+=1,
+
+917 
+	mDEV_IPMI_POWEROFF_POWERCYCLE
+=1,
+
+923 
+	mABI_DEFHANDLER_COFF
+=1,
+
+924 
+	mABI_DEFHANDLER_ELF
+=2,
+
+925 
+	mABI_DEFHANDLER_LCALL7
+=3,
+
+926 
+	mABI_DEFHANDLER_LIBCSO
+=4,
+
+927 
+	mABI_TRACE
+=5,
+
+928 
+	mABI_FAKE_UTSNAME
+=6,
+
+	@/usr/include/linux/types.h
+
+1 #i‚de‡
+_LINUX_TYPES_H
+
+
+2 
+	#_LINUX_TYPES_H
+
+
+	)
+
+4 
+	~<asm/ty≥s.h
+>
+
+6 #i‚de‡
+__ASSEMBLY__
+
+
+8 
+	~<löux/posix_ty≥s.h
+>
+
+16 #ifde‡
+__CHECKER__
+
+
+17 
+	#__bôwi£__
+ 
+	`__©åibuã__
+((
+bôwi£
+))
+
+	)
+
+19 
+	#__bôwi£__
+
+
+	)
+
+21 #ifde‡
+__CHECK_ENDIAN__
+
+
+22 
+	#__bôwi£
+ 
+__bôwi£__
+
+
+	)
+
+24 
+	#__bôwi£
+
+
+	)
+
+27 
+__u16
+ 
+	t__bôwi£
+ 
+	t__À16
+;
+
+28 
+__u16
+ 
+	t__bôwi£
+ 
+	t__be16
+;
+
+29 
+__u32
+ 
+	t__bôwi£
+ 
+	t__À32
+;
+
+30 
+__u32
+ 
+	t__bôwi£
+ 
+	t__be32
+;
+
+31 
+__u64
+ 
+	t__bôwi£
+ 
+	t__À64
+;
+
+32 
+__u64
+ 
+	t__bôwi£
+ 
+	t__be64
+;
+
+34 
+__u16
+ 
+	t__bôwi£
+ 
+	t__sum16
+;
+
+35 
+__u32
+ 
+	t__bôwi£
+ 
+	t__wsum
+;
+
+46 
+	#__Æig√d_u64
+ 
+__u64
+ 
+	`__©åibuã__
+((
+	`Æig√d
+(8)))
+
+	)
+
+47 
+	#__Æig√d_be64
+ 
+__be64
+ 
+	`__©åibuã__
+((
+	`Æig√d
+(8)))
+
+	)
+
+48 
+	#__Æig√d_À64
+ 
+__À64
+ 
+	`__©åibuã__
+((
+	`Æig√d
+(8)))
+
+	)
+
+	@/usr/include/linux/wait.h
+
+1 #i‚de‡
+_LINUX_WAIT_H
+
+
+2 
+	#_LINUX_WAIT_H
+
+
+	)
+
+4 
+	#WNOHANG
+ 0x00000001
+
+	)
+
+5 
+	#WUNTRACED
+ 0x00000002
+
+	)
+
+6 
+	#WSTOPPED
+ 
+WUNTRACED
+
+
+	)
+
+7 
+	#WEXITED
+ 0x00000004
+
+	)
+
+8 
+	#WCONTINUED
+ 0x00000008
+
+	)
+
+9 
+	#WNOWAIT
+ 0x01000000
+
+	)
+
+11 
+	#__WNOTHREAD
+ 0x20000000
+
+	)
+
+12 
+	#__WALL
+ 0x40000000
+
+	)
+
+13 
+	#__WCLONE
+ 0x80000000
+
+	)
+
+16 
+	#P_ALL
+ 0
+
+	)
+
+17 
+	#P_PID
+ 1
+
+	)
+
+18 
+	#P_PGID
+ 2
+
+	)
+
+	@/usr/include/linux/posix_types.h
+
+1 #i‚de‡
+_LINUX_POSIX_TYPES_H
+
+
+2 
+	#_LINUX_POSIX_TYPES_H
+
+
+	)
+
+4 
+	~<löux/°ddef.h
+>
+
+21 #unde‡
+__FD_SETSIZE
+
+
+22 
+	#__FD_SETSIZE
+ 1024
+
+	)
+
+25 
+	mfds_bôs
+[
+__FD_SETSIZE
+ / (8 * ())];
+
+26 } 
+	t__kî√l_fd_£t
+;
+
+29 (*
+	t__kî√l_sigh™dÀr_t
+)();
+
+32 
+	t__kî√l_key_t
+;
+
+33 
+	t__kî√l_mqd_t
+;
+
+35 
+	~<asm/posix_ty≥s.h
+>
+
+	@/usr/include/linux/sysinfo.h
+
+1 #i‚de‡
+_LINUX_SYSINFO_H
+
+
+2 
+	#_LINUX_SYSINFO_H
+
+
+	)
+
+4 
+	~<löux/ty≥s.h
+>
+
+6 
+	#SI_LOAD_SHIFT
+ 16
+
+	)
+
+7 
+	ssysöfo
+ {
+
+8 
+__kî√l_l⁄g_t
+ 
+	mu±ime
+;
+
+9 
+__kî√l_ul⁄g_t
+ 
+	mlﬂds
+[3];
+
+10 
+__kî√l_ul⁄g_t
+ 
+	mtŸÆøm
+;
+
+11 
+__kî√l_ul⁄g_t
+ 
+	m‰ìøm
+;
+
+12 
+__kî√l_ul⁄g_t
+ 
+	msh¨edøm
+;
+
+13 
+__kî√l_ul⁄g_t
+ 
+	mbuf„ºam
+;
+
+14 
+__kî√l_ul⁄g_t
+ 
+	mtŸÆsw≠
+;
+
+15 
+__kî√l_ul⁄g_t
+ 
+	m‰ìsw≠
+;
+
+16 
+__u16
+ 
+	m¥ocs
+;
+
+17 
+__u16
+ 
+	m∑d
+;
+
+18 
+__kî√l_ul⁄g_t
+ 
+	mtŸÆhigh
+;
+
+19 
+__kî√l_ul⁄g_t
+ 
+	m‰ìhigh
+;
+
+20 
+__u32
+ 
+	mmem_unô
+;
+
+21 
+	m_f
+[20-2*(
+__kî√l_ul⁄g_t
+)-(
+__u32
+)];
+
+	@/usr/include/linux/stddef.h
+
+	@
+1
+.
+1
+/usr/include
+14
+355
+mc146818rtc.h
+rtc-classDriver-nay.c
+rtc-cmos-nay.c
+/usr/include/linux/fcntl.h
+/usr/include/linux/kernel.h
+/usr/include/linux/poll.h
+/usr/include/linux/rtc.h
+/usr/include/linux/sched.h
+/usr/include/linux/sysctl.h
+/usr/include/linux/types.h
+/usr/include/linux/wait.h
+/usr/include/linux/posix_types.h
+/usr/include/linux/sysinfo.h
+/usr/include/linux/stddef.h
